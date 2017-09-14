@@ -13,24 +13,12 @@
         font-size: 0;
     }
     &__title {
-        font-size: 16px;
-        line-height: 25px;
+        font-size: 22px;
+        line-height: 1em;
         position: relative;
-        padding-bottom: 6px;
-        font-weight: bold;
-        margin-right: 12px;
+        margin-bottom: 12px;
         color: $brand-primary;
-        &::after {
-            display: block;
-            width: 35px;
-            height: 2px;
-            content: '';
-            background: $brand-primary;
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            @include transition(all, 0.2, linear);
-        }
+        text-transform: uppercase;
         &:hover {
             color: $brand-success;
             &::after {
@@ -79,12 +67,17 @@
         @include clearfix();
     }
     &--grey {
-        background: #F4F4F4;
+        background: #F0F0F0;
         padding: 8px;
     }
     &--featured {
         background: #111;
         padding: 16px;
+    }
+    .sidebar-col &{
+        .zone__title{
+            font-size: 16px;
+        }
     }
 }
 
@@ -93,4 +86,53 @@
     @include clearfix();
     margin-bottom: 24px;
     text-align: center;
+}
+
+// breaking zone
+.breaking {
+    &-wrap {
+        @include clearfix;
+        margin-bottom: 16px;
+        font-size: 12px;
+    }
+    &__label {
+        padding: 4px 8px;
+        background: #F0F0F0;
+        margin-right: 12px;
+        float: left;
+        text-align: center;
+        position: relative;
+        &::after {
+            display: block;
+            content: '';
+            width: 0;
+            height: 0;
+            border-top: 5px solid transparent;
+            border-left: 5px solid #f0f0f0;
+            border-bottom: 5px solid transparent;
+            position: absolute;
+            top: 7px;
+            right: -5px;
+        }
+    }
+    &__listing {
+        float: left;
+        line-height: 25px;
+        @include clearfix;
+        height: 25px;
+        overflow: hidden;
+        width: 1064px;
+    }
+    &__item {
+        float: left;
+        &+.breaking__item {
+            margin-left: 8px;
+            &::before {
+                display: inline;
+                content: '●';
+                margin-right: 8px;
+                color: #555;
+            }
+        }
+    }
 }

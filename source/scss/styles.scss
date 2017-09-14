@@ -11,7 +11,7 @@
 
 /* font */
 
-@import "../fonts/font-awesome-4.7.0/scss/font-awesome.scss";
+// @import "../fonts/font-awesome-4.7.0/scss/font-awesome.scss";
 
 /* utilities */
 
@@ -35,6 +35,9 @@
 @import "component/breadcrumbs";
 @import "component/pagination";
 @import "component/searchbox";
+@import "component/sprites";
+@import "component/taglinks";
+@import "component/weather";
 
 /* pages */
 

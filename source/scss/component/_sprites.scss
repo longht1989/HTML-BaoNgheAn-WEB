@@ -1,0 +1,26 @@
+/* sprites style */
+
+.sprites {
+    display: inline-block;
+    background: url(../img/sprites.svg) no-repeat;
+    cursor: pointer;
+}
+
+.sprite {
+    &-search {
+        width: 13px;
+        height: 14px;
+        background-position: 0px -72px;
+        &:hover {
+            background-position-y: -96px;
+        }
+    }
+    &-home {
+        width: 13px;
+        height: 14px;
+        background-position: 0 0;
+        &:hover {
+            background-position-x: -23px;
+        }
+    }
+}

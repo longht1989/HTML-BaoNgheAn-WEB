@@ -6,7 +6,6 @@
     src: url('../fonts/Roboto-Regular.eot');
     src: local('☺'),
         url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
-        // url('../fonts/Roboto-Regular.woff2') format('woff2'),
         url('../fonts/Roboto-Regular.woff') format('woff'),
         url('../fonts/Roboto-Regular.ttf') format('truetype');
     font-weight: normal;
@@ -18,7 +17,6 @@
     src: url('../fonts/Roboto-Bold.eot');
     src: local('☺'),
         url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
-        // url('../fonts/Roboto-Bold.woff2') format('woff2'),
         url('../fonts/Roboto-Bold.woff') format('woff'),
         url('../fonts/Roboto-Bold.ttf') format('truetype');
     font-weight: bold;
@@ -30,7 +28,6 @@
     src: url('../fonts/Roboto-BoldItalic.eot');
     src: local('☺'),
         url('../fonts/Roboto-BoldItalic.eot?#iefix') format('embedded-opentype'),
-        // url('../fonts/Roboto-BoldItalic.woff2') format('woff2'),
         url('../fonts/Roboto-BoldItalic.woff') format('woff'),
         url('../fonts/Roboto-BoldItalic.ttf') format('truetype');
     font-weight: bold;
@@ -42,7 +39,6 @@
     src: url('../fonts/Roboto-Italic.eot');
     src: local('☺'),
         url('../fonts/Roboto-Italic.eot?#iefix') format('embedded-opentype'),
-        // url('../fonts/Roboto-Italic.woff2') format('woff2'),
         url('../fonts/Roboto-Italic.woff') format('woff'),
         url('../fonts/Roboto-Italic.ttf') format('truetype');
     font-weight: normal;
@@ -52,51 +48,24 @@
 // Special fonts
 
 @font-face {
-    font-family: 'RobotoCond';
-    src: url('../fonts/RobotoCondensed-Regular.eot');
+    font-family: 'QuickSand';
+    src: url('../fonts/QuickSand-Regular.eot');
     src: local('☺'),
-        url('../fonts/RobotoCondensed-Regular.eot?#iefix') format('embedded-opentype'),
-        // url('../fonts/RobotoCondensed-Regular.woff2') format('woff2'),
-        url('../fonts/RobotoCondensed-Regular.woff') format('woff'),
-        url('../fonts/RobotoCondensed-Regular.ttf') format('truetype');
+        url('../fonts/QuickSand-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/QuickSand-Regular.woff') format('woff'),
+        url('../fonts/QuickSand-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'RobotoCond';
-    src: url('../fonts/RobotoCondensed-Bold.eot');
+    font-family: 'QuickSand';
+    src: url('../fonts/QuickSand-Bold.eot');
     src: local('☺'),
-        url('../fonts/RobotoCondensed-Bold.eot?#iefix') format('embedded-opentype'),
-        // url('../fonts/RobotoCondensed-Bold.woff2') format('woff2'),
-        url('../fonts/RobotoCondensed-Bold.woff') format('woff'),
-        url('../fonts/RobotoCondensed-Bold.ttf') format('truetype');
+        url('../fonts/QuickSand-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/QuickSand-Bold.woff') format('woff'),
+        url('../fonts/QuickSand-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
-// Serif fonts
-
-@font-face {
-    font-family: 'RobotoSlab';
-    src: url('../fonts/RobotoSlab-Regular.eot');
-    src: local('☺'),
-        url('../fonts/RobotoSlab-Regular.eot?#iefix') format('embedded-opentype'),
-        // url('../fonts/RobotoSlab-Regular.woff2') format('woff2'),
-        url('../fonts/RobotoSlab-Regular.woff') format('woff'),
-        url('../fonts/RobotoSlab-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'RobotoSlab';
-    src: url('../fonts/RobotoSlab-Bold.eot');
-    src: local('☺'),
-        url('../fonts/RobotoSlab-Bold.eot?#iefix') format('embedded-opentype'),
-        // url('../fonts/RobotoSlab-Bold.woff2') format('woff2'),
-        url('../fonts/RobotoSlab-Bold.woff') format('woff'),
-        url('../fonts/RobotoSlab-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}

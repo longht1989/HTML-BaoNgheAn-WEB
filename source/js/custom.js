@@ -3,8 +3,9 @@
    ==================================== */
 
 $(function() {
-    $('.toggle-listing').click(function() {
-        $(this).toggleClass('is-active');
-        $(this).siblings(".category-listing").slideToggle('');
+    $('.zone--media .zone__content').bxSlider({
+    	nextText: '',
+    	prevText: '',
+    	auto: 1
     });
 });

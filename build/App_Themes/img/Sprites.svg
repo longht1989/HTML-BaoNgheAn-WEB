@@ -4,25 +4,71 @@
     <title>Sprites</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Layout" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-size="14" font-family="FontAwesome" font-weight="normal">
+    <g id="Layout" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Sprites">
-            <text id="" opacity="0.900000036" fill="#FFFFFF">
+            <text id="" opacity="0.900000036" font-family="FontAwesome" font-size="14" font-weight="normal" fill="#FFFFFF">
                 <tspan x="0" y="36"></tspan>
             </text>
-            <text id="" opacity="0.900000036" fill="#FFFFFF">
+            <text id="" opacity="0.900000036" font-family="FontAwesome" font-size="14" font-weight="normal" fill="#FFFFFF">
                 <tspan x="0" y="60"></tspan>
             </text>
-            <text id="" fill="#FFFFFF">
+            <text id="" font-family="FontAwesome" font-size="14" font-weight="normal" fill="#FFFFFF">
                 <tspan x="0" y="12"></tspan>
             </text>
-            <text id="-copy" fill="#EC1C23">
+            <text id="-copy" font-family="FontAwesome" font-size="14" font-weight="normal" fill="#EC1C23">
                 <tspan x="23" y="12"></tspan>
             </text>
-            <text id="" fill="#999999">
+            <text id="" font-family="FontAwesome" font-size="14" font-weight="normal" fill="#999999">
                 <tspan x="0" y="84"></tspan>
             </text>
-            <text id="-copy" fill="#000000">
+            <text id="-copy" font-family="FontAwesome" font-size="14" font-weight="normal" fill="#000000">
                 <tspan x="0" y="108"></tspan>
+            </text>
+            <text id="" font-family="FontAwesome" font-size="18" font-weight="normal" fill="#EC1C23">
+                <tspan x="0" y="135"></tspan>
+            </text>
+            <text id="" font-family="FontAwesome" font-size="14" font-weight="normal" fill="#BFBFBF">
+                <tspan x="0" y="160"></tspan>
+            </text>
+            <rect id="Rectangle-18" fill="#3B5998" x="0" y="172" width="24" height="24"></rect>
+            <text id="" font-family="FontAwesome" font-size="14" font-weight="normal" fill="#FFFFFF">
+                <tspan x="8" y="189"></tspan>
+            </text>
+            <rect id="Rectangle-18-Copy" fill="#D34836" x="32" y="172" width="24" height="24"></rect>
+            <text id="" font-family="FontAwesome" font-size="14" font-weight="normal" fill="#FFFFFF">
+                <tspan x="35" y="189"></tspan>
+            </text>
+            <rect id="Rectangle-18-Copy-2" fill="#0084B4" x="64" y="172" width="24" height="24"></rect>
+            <text id="" font-family="FontAwesome" font-size="14" font-weight="normal" fill="#FFFFFF">
+                <tspan x="70" y="189"></tspan>
+            </text>
+            <rect id="Rectangle-18-Copy-4" fill="#008FE5" x="96" y="172" width="24" height="24"></rect>
+            <text id="Z" font-family="Quicksand-Bold, Quicksand" font-size="14" font-weight="bold" fill="#FFFFFF">
+                <tspan x="103" y="189">Z</tspan>
+            </text>
+            <rect id="Rectangle-18-Copy-3" fill="#999999" x="128" y="172" width="24" height="24"></rect>
+            <text id="" font-family="FontAwesome" font-size="14" font-weight="normal" fill="#FFFFFF">
+                <tspan x="133" y="189"></tspan>
+            </text>
+            <rect id="Rectangle-18-Copy-9" fill="#777777" x="0" y="206" width="24" height="24"></rect>
+            <text id="-copy" font-family="FontAwesome" font-size="14" font-weight="normal" fill="#FFFFFF">
+                <tspan x="8" y="223"></tspan>
+            </text>
+            <rect id="Rectangle-18-Copy-8" fill="#777777" x="32" y="206" width="24" height="24"></rect>
+            <text id="-copy" font-family="FontAwesome" font-size="14" font-weight="normal" fill="#FFFFFF">
+                <tspan x="35" y="223"></tspan>
+            </text>
+            <rect id="Rectangle-18-Copy-7" fill="#777777" x="64" y="206" width="24" height="24"></rect>
+            <text id="-copy" font-family="FontAwesome" font-size="14" font-weight="normal" fill="#FFFFFF">
+                <tspan x="70" y="223"></tspan>
+            </text>
+            <rect id="Rectangle-18-Copy-6" fill="#777777" x="96" y="206" width="24" height="24"></rect>
+            <text id="Z-Copy" font-family="Quicksand-Bold, Quicksand" font-size="14" font-weight="bold" fill="#FFFFFF">
+                <tspan x="103" y="223">Z</tspan>
+            </text>
+            <rect id="Rectangle-18-Copy-5" fill="#777777" x="128" y="206" width="24" height="24"></rect>
+            <text id="-copy" font-family="FontAwesome" font-size="14" font-weight="normal" fill="#FFFFFF">
+                <tspan x="133" y="223"></tspan>
             </text>
         </g>
     </g>

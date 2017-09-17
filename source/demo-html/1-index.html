@@ -24,40 +24,45 @@
 <body>
     <!-- site header -->
     <header id="site-header">
-        <div class="site-header__content">
+        <!-- site header top bar -->
+        <div class="site-header__topbar">
             <div class="site-wrap">
-                <!-- site logo -->
-                <h1 class="logo"><a href="1-index.html" title=""><img class="img-responsive" src="../app_themes/img/logo.png" alt=""></a></h1>
-                <!-- top banner -->
-                <div class="qc"><a href="#"><img src="fig-image/ads-728x90.jpg" alt=""></a></div>
-                <!-- header tool-->
-                <div class="tool">
-                    <!-- header social -->
-                    <div class="site-header__social">
-                        <p>Theo dõi chúng tôi</p>
-                        <div class="social-listing">
-                            <a href="#" class="fa fa-facebook"></a>
-                            <a href="#" class="fa fa-google-plus"></a>
-                            <a href="#" class="fa fa-twitter"></a>
-                            <a href="#" class="fa fa-envelope"></a>
-                        </div>
+                <time datetime="2011-01-12">January 12th, 2011</time>
+                <div class="site-header__tool">
+                    <!-- top links -->
+                    <div class="site-header__links">
+                        <span>Hotline: (023)83.588138</span>
+                        <a href="#">Mail gửi tòa soạn</a>
+                        <a href="#">Liên hệ đặt báo</a>
+                        <a href="#">Quảng cáo</a>
                     </div>
                     <!-- header search -->
                     <div class="search-wrap">
                         <input type="text" class="form-control" placeholder="Tìm kiếm">
-                        <span class="fa fa-search"></span>
+                        <span class="sprites sprite-search"></span>
                     </div>
                 </div>
             </div>
         </div>
-        <nav class="site-header__nav">
+        <!--  -->
+        <div class="site-header__content">
+            <div class="site-wrap">
+                <!-- site logo -->
+                <h1 class="logo"><a href="1-index.html" title=""><img src="../app_themes/img/logo.png" alt=""></a></h1>
+            </div>
+        </div>
+        <!-- navigator -->
+        <nav class="site-header__nav" data-spy="affix" data-offset-top="243" data-offset-bottom="0">
             <div class="site-wrap">
                 <ul class="navigator">
+                    <li>
+                        <a href="1-index.html"><span class="sprites sprite-home"></span></a>
+                    </li>
                     <li>
                         <a href="2-category.html"><span class="fa fa-home"></span></a>
                     </li>
                     <li>
-                        <a href="2-category.html">Xã hội</a>
+                        <a href="2-category.html" title="Thời sự">Thời sự</a>
                         <ul class="navigator__child">
                             <li>
                                 <a href="2-category.html">Thời sự</a>
@@ -67,1025 +72,901 @@
                             </li>
                         </ul>
                     </li>
-                    <li class=""><a href="2-category.html" title="Thế giới">Thế giới</a></li>
-                    <li><a href="2-category.html" title="Văn hóa">Văn hóa</a></li>
-                    <li><a href="2-category.html" title="Kinh tế">Kinh tế</a></li>
+                    <li class=""><a href="2-category.html" title="Kinh tế">Kinh tế</a></li>
+                    <li><a href="2-category.html" title="Xây dựng Đảng">Xây dựng Đảng</a></li>
+                    <li><a href="2-category.html" title="Xã hội">Xã hội</a></li>
+                    <li><a href="2-category.html" title="Phóng sự">Phóng sự</a></li>
                     <li><a href="2-category.html" title="Giáo dục">Giáo dục</a></li>
-                    <li><a href="2-category.html" title="Thể thao">Thể thao</a></li>
-                    <li><a href="2-category.html" title="Giải trí">Giải trí</a></li>
+                    <li><a href="2-category.html" title="Quân sự">Quân sự</a></li>
                     <li><a href="2-category.html" title="Pháp luật">Pháp luật</a></li>
-                    <li><a href="2-category.html" title="Khoa học - Công nghệ">Khoa học - Huyền bí</a></li>
+                    <li><a href="2-category.html" title="Quốc Tế">Quốc Tế</a></li>
                     <li><a href="2-category.html" title="Đời sống">Đời sống</a></li>
-                    <li><a href="2-category.html" title="Tấm lòng nhân ái">Tấm lòng nhân ái</a></li>
-                    <li><a href="2-category.html" title="Sức khỏe">Sức khỏe</a></li>
+                    <li><a href="2-category.html" title="Xe & công nghệ">Xe & công nghệ</a></li>
+                    <li><a href="2-category.html" title="Thể thao">Thể thao</a></li>
+                    <li><a href="2-category.html" title="Vô xứ Nghệ">Vô xứ Nghệ</a></li>
                     <li><a href="2-category.html" title="Video">Video</a></li>
-                    <li><a href="2-category.html" title="Học tiếng Anh">Học tiếng Anh</a></li>
-                    <li class="is-featured">
-                        <a href="2-category.html" title="Quà tặng cuộc sống">Quà tặng cuộc sống</a>
-                        <ul class="navigator__child">
-                            <li>
-                                <a href="2-category.html">Thời sự</a>
-                            </li>
-                            <li>
-                                <a href="2-category.html">Giao thông</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="2-category.html" title="Góc tâm sự">Góc tâm sự</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <!-- site content -->
     <div id="site-content">
-        <div class="site-wrap">
-            <!-- highlight zone -->
-            <div class="zone zone--highlight">
-                <div class="zone__content">
-                    <!-- story highlight -->
-                    <article class="story story--highlight story--mask">
-                        <figure class="story__thumb">
-                            <a href="3-detail.html"><img src="https://source.unsplash.com/random/582x334?sig=1" alt=""></a>
-                        </figure>
-                        <h2 class="story__title"><a href="3-detail.html">Eripuit omni, amicitiam incommoda benivole eximiae magnopere, recordamur.</a></h2>
-                        <div class="story__meta">
-                            <a href="2-category.html" class="story__source">Contemnit. Negent.</a>
-                        </div>
-                    </article>
-                    <!-- story listing -->
-                    <div class="zone__listing">
-                        <!-- story mask -->
-                        <article class="story story--mask">
-                            <figure class="story__thumb">
-                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/283x159?sig=1" alt=""></a>
-                            </figure>
-                            <h2 class="story__title"><a href="3-detail.html">Iucunditatem, involuta nasci. Amicitia indocti nomini nivem libido.</a></h2>
-                            <div class="story__meta">
-                                <a href="2-category.html" class="story__source">Dolere torquatum.</a>
-                            </div>
-                        </article>
-                        <!-- story mask -->
-                        <article class="story story--mask">
-                            <figure class="story__thumb">
-                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/283x159?sig=2" alt=""></a>
-                            </figure>
-                            <h2 class="story__title"><a href="3-detail.html">Ne disputandum consentinis illi ponunt, sitne poetae incorrupte.</a></h2>
-                            <div class="story__meta">
-                                <a href="2-category.html" class="story__source">Hosti gratia.</a>
-                            </div>
-                        </article>
-                        <!-- story mask -->
-                        <article class="story story--mask">
-                            <figure class="story__thumb">
-                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/283x159?sig=3" alt=""></a>
-                            </figure>
-                            <h2 class="story__title"><a href="3-detail.html">Nulli relinqueret meminerunt deterritum excruciant, vivere, legimus adiungimus.</a></h2>
-                            <div class="story__meta">
-                                <a href="2-category.html" class="story__source">Recordatione quantaque.</a>
-                            </div>
-                        </article>
-                        <!-- story mask -->
-                        <article class="story story--mask">
-                            <figure class="story__thumb">
-                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/283x159?sig=4" alt=""></a>
-                            </figure>
-                            <h2 class="story__title"><a href="3-detail.html">Assecutus pulcherrimum, evolutio aegritudine pugnare fit iudicatum stare.</a></h2>
-                            <div class="story__meta">
-                                <a href="2-category.html" class="story__source">Postea saluto.</a>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-            </div>
-            <!-- top banner -->
-            <div class="qc"><a href="#"><img src="https://source.unsplash.com/random/980x90?sig=0" alt=""></a></div>
-            <!-- main content -->
+        <!-- above the fold -->
+        <div class="site-wrap has-qc-floating">
+            <!-- main col -->
             <div class="main-col">
-                <!-- zone video -->
-                <section class="zone zone--featured">
-                    <h3 class="zone__header">
-                        <a href="4-video-cate.html" class="zone__title">Video</a>
-                        <a href="4-video-cate.html" class="zone__sub-title">Quà tặng cuộc sống</a>
-                        <a href="4-video-cate.html" class="zone__sub-title">Xả xì chét</a>
-                        <a href="4-video-cate.html" class="zone__sub-title">Gameshow</a>
-                    </h3>
+                <!-- zone highlight -->
+                <div class="zone zone--highlight">
+                    <article class="story story--highlight">
+                        <figure class="story__thumb">
+                            <a href="3-detail.html"><img src="https://source.unsplash.com/random/572x321?sig=1" alt=""></a>
+                        </figure>
+                        <h2 class="story__title"><a href="3-detail.html">Iam studiis retinere summam incurrunt videtisne eventurum nesciunt.</a></h2>
+                        <div class="story__desc">Việt Nam đứng thứ 6 trong 10 nước tăng trưởng du lịch mạnh nhất thế giới nhất đầu năm 2017, và đứng đầu châu Á về tốc độ phát triển du lịch.</div>
+                    </article>
+                    <!-- top story -->
+                    <ul class="story-listing">
+                        <li>
+                            <article class="story">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/180x100?sig=1" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Aliquando naturalem, aiebat minima, retinere detraxisse praesenti suscipiet.</a></h2>
+                            </article>
+                        </li>
+                        <li>
+                            <article class="story">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/180x100?sig=2" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Illius medeam manus suscipit audeam notionem pleniorem venisset.</a></h2>
+                            </article>
+                        </li>
+                        <li>
+                            <article class="story">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/180x100?sig=3" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Distrahi privatio tractatos dissentio veritatis concordia tantas.</a></h2>
+                            </article>
+                        </li>
+                    </ul>
+                </div>
+                <!-- zone latest -->
+                <div class="zone zone--grey zone--latest">
                     <div class="zone__content">
-                        <!-- story highlight -->
-                        <article class="story story--highlight story--mask">
-                            <figure class="story__thumb">
-                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/620x353?sig=1" alt=""></a>
-                            </figure>
-                            <h2 class="story__title"><a href="3-detail.html">Iam studiis retinere summam incurrunt videtisne eventurum nesciunt.</a></h2>
-                            <div class="story__meta">
-                                <a href="2-category.html" class="story__source">Conversa consuevit.</a>
-                            </div>
-                            <a href="3-detail.html" class="story__icon"><span class="fa fa-play"></span></a>
+                        <!-- story with bulle title -->
+                        <article class="story story--bullet">
+                            <h2 class="story__title"><a href="3-detail.html">Recusabo perpessio a is affecti seiunctum sentiri peccandi.</a></h2>
                         </article>
-                        <!-- story listing -->
-                        <div class="zone__listing">
-                            <!-- story normal with bold title-->
-                            <article class="story">
-                                <figure class="story__thumb">
-                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/186x104?sig=1" alt=""></a>
-                                </figure>
-                                <h2 class="story__title"><a href="3-detail.html">Tempus senserit illa mirari conducunt referri, maluisti.</a></h2>
-                                <div class="story__meta">
-                                    <a href="2-category.html" class="story__source">Hunc, physicis.</a>
-                                    <time datetime="2011-01-12">January 12th, 2011</time>
-                                </div>
-                            </article>
-                            <!-- story normal with bold title-->
-                            <article class="story">
-                                <figure class="story__thumb">
-                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/186x104?sig=2" alt=""></a>
-                                </figure>
-                                <h2 class="story__title"><a href="3-detail.html">Medicorum possum pararetur maximi, vim ego venandi.</a></h2>
-                                <div class="story__meta">
-                                    <a href="2-category.html" class="story__source">Varias accedere.</a>
-                                    <time datetime="2011-01-12">January 12th, 2011</time>
-                                </div>
-                            </article>
-                            <!-- story normal with bold title-->
-                            <article class="story">
-                                <figure class="story__thumb">
-                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/186x104?sig=3" alt=""></a>
-                                </figure>
-                                <h2 class="story__title"><a href="3-detail.html">Simplicem synephebos aliquo honesto sine num repetitis.</a></h2>
-                                <div class="story__meta">
-                                    <a href="2-category.html" class="story__source">Universas excelsus.</a>
-                                    <time datetime="2011-01-12">January 12th, 2011</time>
-                                </div>
-                            </article>
-                            <!-- story normal with bold title-->
-                            <article class="story">
-                                <figure class="story__thumb">
-                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/186x104?sig=4" alt=""></a>
-                                </figure>
-                                <h2 class="story__title"><a href="3-detail.html">Futuros habere dictum tueri ennii, invidia, expeteretur.</a></h2>
-                                <div class="story__meta">
-                                    <a href="2-category.html" class="story__source">Amicitias arbitror.</a>
-                                    <time datetime="2011-01-12">January 12th, 2011</time>
-                                </div>
-                            </article>
-                            <!-- story normal with bold title-->
-                            <article class="story">
-                                <figure class="story__thumb">
-                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/186x104?sig=5" alt=""></a>
-                                </figure>
-                                <h2 class="story__title"><a href="3-detail.html">Multitudinem, tenebo, appellantur utramque, intervalla, facerem legantur.</a></h2>
-                                <div class="story__meta">
-                                    <a href="2-category.html" class="story__source">Reprehensa provocatus.</a>
-                                    <time datetime="2011-01-12">January 12th, 2011</time>
-                                </div>
-                            </article>
-                        </div>
+                        <article class="story story--bullet">
+                            <h2 class="story__title"><a href="3-detail.html">Homines gloriatur cadere eo. Civitatis, propriae consectetur diligant.</a></h2>
+                        </article>
+                        <article class="story story--bullet">
+                            <h2 class="story__title"><a href="3-detail.html">Asperner acute quaeque facilius tuemur iucunda triari divitias.</a></h2>
+                        </article>
+                        <article class="story story--bullet">
+                            <h2 class="story__title"><a href="3-detail.html">Carere. Nostra clariora suaviter telos inopem filium simul.</a></h2>
+                        </article>
+                        <article class="story story--bullet">
+                            <h2 class="story__title"><a href="3-detail.html">Sentit iucundius nati laudabilis eximiae ignorare improborum manum.</a></h2>
+                        </article>
+                        <article class="story story--bullet">
+                            <h2 class="story__title"><a href="3-detail.html">Putas expetendam loquuntur reprehensione durissimis, ordinem reque consistat.</a></h2>
+                        </article>
+                        <article class="story story--bullet">
+                            <h2 class="story__title"><a href="3-detail.html">Liberiusque exeamus claudicare probantur, iustius litteras multo impeditur.</a></h2>
+                        </article>
+                        <article class="story story--bullet">
+                            <h2 class="story__title"><a href="3-detail.html">Deditum confirmare autem periculum nemini nominis. Investigandi praeclarorum.</a></h2>
+                        </article>
+                        <article class="story story--bullet">
+                            <h2 class="story__title"><a href="3-detail.html">Corrupti hic expetendas utens fabellas sitne laetitiam parendum.</a></h2>
+                        </article>
                     </div>
-                </section>
-                <!-- index zone group -->
-                <div class="zone-wrap">
-                    <!-- index zone group -->
-                    <div class="zone--group">
-                        <!-- left column -->
-                        <div class="zone--column">
-                            <!-- normal zone -->
-                            <section class="zone">
-                                <h3 class="zone__header">
-                                    <a href="" class="zone__title">Xã hội</a>
-                                    <a href="" class="zone__sub-title">Thời sự</a>
-                                    <a href="" class="zone__sub-title">Giao thông</a>
-                                    <a href="" class="zone__sub-title">Môi trường - Khí hậu</a>
-                                </h3>
-                                <div class="zone__content">
-                                    <!-- story normal with bold title-->
-                                    <article class="story">
-                                        <figure class="story__thumb">
-                                            <a href="3-detail.html"><img src="https://source.unsplash.com/random/310x174?sig=1" alt=""></a>
-                                        </figure>
-                                        <h2 class="story__title"><a href="3-detail.html">Desideret duo verear cyrenaicos videatur corrupisti partitio displicet.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Torquate recordatione.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                        <div class="story__desc">Consumere. Consentinis quaerenda, doloremque conclusum ficta quocirca paene physici reprehensa stoicos alterum, hortatore potiendi, maiora.</div>
-                                    </article>
-                                    <!-- story with normal title -->
-                                    <article class="story story--light story--border">
-                                        <h2 class="story__title"><a href="3-detail.html">Iucunditatem sapienti suscipiet utilitate vera tractatas collegi pulcherrimum.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Greges consumere.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                    </article>
-                                    <!-- story with normal title -->
-                                    <article class="story story--light story--border">
-                                        <h2 class="story__title"><a href="3-detail.html">Oblique videor multa fugienda incorruptis maximi pericula factis.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Intellegentium, usu.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                    </article>
-                                    <!-- story with normal title -->
-                                    <article class="story story--light story--border">
-                                        <h2 class="story__title"><a href="3-detail.html">Nosmet apertam cognitionem. Summam data. Captiosa ornateque rerum.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Liberiusque oratione.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                    </article>
-                                </div>
-                            </section>
-                            <!-- normal zone -->
-                            <section class="zone">
-                                <h3 class="zone__header">
-                                    <a href="" class="zone__title">Văn hóa</a>
-                                    <a href="" class="zone__sub-title">Thời sự</a>
-                                    <a href="" class="zone__sub-title">Giao thông</a>
-                                    <a href="" class="zone__sub-title">Môi trường - Khí hậu</a>
-                                </h3>
-                                <div class="zone__content">
-                                    <!-- story normal with bold title-->
-                                    <article class="story">
-                                        <figure class="story__thumb">
-                                            <a href="3-detail.html"><img src="https://source.unsplash.com/random/310x174?sig=2" alt=""></a>
-                                        </figure>
-                                        <h2 class="story__title"><a href="3-detail.html">Angore probabis remotis gloriatur minima inciderit epicurei disserui.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Iudicatum temporibus.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                        <div class="story__desc">Caecilii, sabinum, aptior sis, nivem civitas maestitiam impendet indoctum, philosophari ipsa morborum gratia nescio firme.</div>
-                                    </article>
-                                    <!-- story with normal title -->
-                                    <article class="story story--light story--border">
-                                        <h2 class="story__title"><a href="3-detail.html">Physico insequitur tarentinis consecutionem effectrices laudatur, complectitur odioque.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Proprius, virtutes.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                    </article>
-                                    <!-- story with normal title -->
-                                    <article class="story story--light story--border">
-                                        <h2 class="story__title"><a href="3-detail.html">Libidinem fastidium fautrices nobis, dolor statim antiquitate me.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Longinquitate suas.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                    </article>
-                                    <!-- story with normal title -->
-                                    <article class="story story--light story--border">
-                                        <h2 class="story__title"><a href="3-detail.html">Eosdem eosque, finxerat naturae discordant pedalis, genuit dubium.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Linguam dicat.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                    </article>
-                                </div>
-                            </section>
-                            <!-- normal zone -->
-                            <section class="zone">
-                                <h3 class="zone__header">
-                                    <a href="" class="zone__title">Giáo dục</a>
-                                    <a href="" class="zone__sub-title">Thời sự</a>
-                                    <a href="" class="zone__sub-title">Giao thông</a>
-                                    <a href="" class="zone__sub-title">Môi trường - Khí hậu</a>
-                                </h3>
-                                <div class="zone__content">
-                                    <!-- story normal with bold title-->
-                                    <article class="story">
-                                        <figure class="story__thumb">
-                                            <a href="3-detail.html"><img src="https://source.unsplash.com/random/310x174?sig=3" alt=""></a>
-                                        </figure>
-                                        <h2 class="story__title"><a href="3-detail.html">Totus, dicitur torquate, erat dicitis iudico deorsum sola.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Legendos tollitur.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                        <div class="story__desc">Utuntur tale gravioribus arare, perpessio fortitudinis audiam, excepturi insequitur. Videtur percipiatur parta miseram aristippi has.</div>
-                                    </article>
-                                    <!-- story with normal title -->
-                                    <article class="story story--light story--border">
-                                        <h2 class="story__title"><a href="3-detail.html">Me otiosum mea gymnasia, cohaerescent delicata sapienti efficiantur.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Verbis tradidisse.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                    </article>
-                                    <!-- story with normal title -->
-                                    <article class="story story--light story--border">
-                                        <h2 class="story__title"><a href="3-detail.html">Fidelissimae audita, adipisci possent notissima inculta insequitur, timeret.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Vis vacuitate.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                    </article>
-                                    <!-- story with normal title -->
-                                    <article class="story story--light story--border">
-                                        <h2 class="story__title"><a href="3-detail.html">Fortitudinis etsi populo voluptaria facultas liberabuntur sequi gessisse.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Huic oderis.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                    </article>
-                                </div>
-                            </section>
-                            <!-- normal zone -->
-                            <section class="zone">
-                                <h3 class="zone__header">
-                                    <a href="" class="zone__title">Giải trí</a>
-                                    <a href="" class="zone__sub-title">Thời sự</a>
-                                    <a href="" class="zone__sub-title">Giao thông</a>
-                                    <a href="" class="zone__sub-title">Môi trường - Khí hậu</a>
-                                </h3>
-                                <div class="zone__content">
-                                    <!-- story normal with bold title-->
-                                    <article class="story">
-                                        <figure class="story__thumb">
-                                            <a href="3-detail.html"><img src="https://source.unsplash.com/random/310x174?sig=4" alt=""></a>
-                                        </figure>
-                                        <h2 class="story__title"><a href="3-detail.html">Angore probabis remotis gloriatur minima inciderit epicurei disserui.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Iudicatum temporibus.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                        <div class="story__desc">Caecilii, sabinum, aptior sis, nivem civitas maestitiam impendet indoctum, philosophari ipsa morborum gratia nescio firme.</div>
-                                    </article>
-                                    <!-- story with normal title -->
-                                    <article class="story story--light story--border">
-                                        <h2 class="story__title"><a href="3-detail.html">Physico insequitur tarentinis consecutionem effectrices laudatur, complectitur odioque.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Proprius, virtutes.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                    </article>
-                                    <!-- story with normal title -->
-                                    <article class="story story--light story--border">
-                                        <h2 class="story__title"><a href="3-detail.html">Libidinem fastidium fautrices nobis, dolor statim antiquitate me.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Longinquitate suas.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                    </article>
-                                    <!-- story with normal title -->
-                                    <article class="story story--light story--border">
-                                        <h2 class="story__title"><a href="3-detail.html">Eosdem eosque, finxerat naturae discordant pedalis, genuit dubium.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Linguam dicat.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                    </article>
-                                </div>
-                            </section>
-                            <!-- normal zone -->
-                            <section class="zone">
-                                <h3 class="zone__header">
-                                    <a href="" class="zone__title">Khoa học - Huyền bí</a>
-                                    <a href="" class="zone__sub-title">Công nghệ</a>
-                                    <a href="" class="zone__sub-title">Chiêm tinh</a>
-                                </h3>
-                                <div class="zone__content">
-                                    <!-- story normal with bold title-->
-                                    <article class="story">
-                                        <figure class="story__thumb">
-                                            <a href="3-detail.html"><img src="https://source.unsplash.com/random/310x174?sig=5" alt=""></a>
-                                        </figure>
-                                        <h2 class="story__title"><a href="3-detail.html">Totus, dicitur torquate, erat dicitis iudico deorsum sola.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Legendos tollitur.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                        <div class="story__desc">Utuntur tale gravioribus arare, perpessio fortitudinis audiam, excepturi insequitur. Videtur percipiatur parta miseram aristippi has.</div>
-                                    </article>
-                                    <!-- story with normal title -->
-                                    <article class="story story--light story--border">
-                                        <h2 class="story__title"><a href="3-detail.html">Me otiosum mea gymnasia, cohaerescent delicata sapienti efficiantur.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Verbis tradidisse.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                    </article>
-                                    <!-- story with normal title -->
-                                    <article class="story story--light story--border">
-                                        <h2 class="story__title"><a href="3-detail.html">Fidelissimae audita, adipisci possent notissima inculta insequitur, timeret.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Vis vacuitate.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                    </article>
-                                    <!-- story with normal title -->
-                                    <article class="story story--light story--border">
-                                        <h2 class="story__title"><a href="3-detail.html">Fortitudinis etsi populo voluptaria facultas liberabuntur sequi gessisse.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Huic oderis.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                    </article>
-                                </div>
-                            </section>
-                        </div>
-                        <!-- right column -->
-                        <div class="zone--column">
-                            <!-- normalzone -->
-                            <section class="zone">
-                                <h3 class="zone__header">
-                                    <a href="" class="zone__title">Thế giới</a>
-                                    <a href="" class="zone__sub-title">Tin thế giới</a>
-                                    <a href="" class="zone__sub-title">Hồ sơ</a>
-                                    <a href="" class="zone__sub-title">Chuyện lạ thế giới</a>
-                                </h3>
-                                <div class="zone__content">
-                                    <!-- story normal with bold title-->
-                                    <article class="story">
-                                        <figure class="story__thumb">
-                                            <a href="3-detail.html"><img src="https://source.unsplash.com/random/310x174?sig=6" alt=""></a>
-                                        </figure>
-                                        <h2 class="story__title"><a href="3-detail.html">Opera ignorare, cognitionem facere. Iudicia, probatus viveremus molestiam.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Tempore viderer.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                        <div class="story__desc">Isdem, doleamus contemnit, discordans offendit legendum in campum amice honestum efficiantur mediocriterne leviora, aristippi careat.</div>
-                                    </article>
-                                    <!-- story with normal title -->
-                                    <article class="story story--light story--border">
-                                        <h2 class="story__title"><a href="3-detail.html">Multavit. Opus reformidans. Segniorem locum disciplinis disseruerunt.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Reprehensa. Constituamus.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                    </article>
-                                    <!-- story with normal title -->
-                                    <article class="story story--light story--border">
-                                        <h2 class="story__title"><a href="3-detail.html">Assueverit aristippi alterum legendum novum posteri gravis eriguntur.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Caritatem bestiae.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                    </article>
-                                    <!-- story with normal title -->
-                                    <article class="story story--light story--border">
-                                        <h2 class="story__title"><a href="3-detail.html">Formidinum legant magni vivamus universas oportet facillime quin.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Filio constituant.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                    </article>
-                                </div>
-                            </section>
-                            <!-- normalzone -->
-                            <section class="zone">
-                                <h3 class="zone__header">
-                                    <a href="" class="zone__title">Kinh tế</a>
-                                    <a href="" class="zone__sub-title">Tin thế giới</a>
-                                    <a href="" class="zone__sub-title">Hồ sơ</a>
-                                    <a href="" class="zone__sub-title">Chuyện lạ thế giới</a>
-                                </h3>
-                                <div class="zone__content">
-                                    <!-- story normal with bold title-->
-                                    <article class="story">
-                                        <figure class="story__thumb">
-                                            <a href="3-detail.html"><img src="https://source.unsplash.com/random/310x174?sig=7" alt=""></a>
-                                        </figure>
-                                        <h2 class="story__title"><a href="3-detail.html">Aristoteli eveniet cn iucunditatis certa inanium quippiam. Movet.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Tempore viderer.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                        <div class="story__desc">Triarium rationem alliciat hanc, meminerunt perpetuis. Robustus dissensio persius inciderint. Persequeris, eventurum impetum sicine greges.</div>
-                                    </article>
-                                    <!-- story with normal title -->
-                                    <article class="story story--light story--border">
-                                        <h2 class="story__title"><a href="3-detail.html">Oporteat democritum. Audivi doctrina partiendo tantopere explicabo.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Reprehensa. Constituamus.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                    </article>
-                                    <!-- story with normal title -->
-                                    <article class="story story--light story--border">
-                                        <h2 class="story__title"><a href="3-detail.html">Assueverit aristippi alterum legendum novum posteri gravis eriguntur.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Caritatem bestiae.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                    </article>
-                                    <!-- story with normal title -->
-                                    <article class="story story--light story--border">
-                                        <h2 class="story__title"><a href="3-detail.html">Formidinum legant magni vivamus universas oportet facillime quin.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Filio constituant.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                    </article>
-                                </div>
-                            </section>
-                            <!-- normalzone -->
-                            <section class="zone">
-                                <h3 class="zone__header">
-                                    <a href="" class="zone__title">Thể thao</a>
-                                    <a href="" class="zone__sub-title">Tin thế giới</a>
-                                    <a href="" class="zone__sub-title">Hồ sơ</a>
-                                    <a href="" class="zone__sub-title">Chuyện lạ thế giới</a>
-                                </h3>
-                                <div class="zone__content">
-                                    <!-- story normal with bold title-->
-                                    <article class="story">
-                                        <figure class="story__thumb">
-                                            <a href="3-detail.html"><img src="https://source.unsplash.com/random/310x174?sig=8" alt=""></a>
-                                        </figure>
-                                        <h2 class="story__title"><a href="3-detail.html">Aristotele copulatas conetur omnis, pacem tempora ne iustitia.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Tempore viderer.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                        <div class="story__desc">Fabulas dissentias instituit, homini perveniri pluribus quaeritur efficiendi philosophari habeatur alia notissima impendere. Iudicant erit.</div>
-                                    </article>
-                                    <!-- story with normal title -->
-                                    <article class="story story--light story--border">
-                                        <h2 class="story__title"><a href="3-detail.html">Nemore, interpretum repellat crudelis erga transferam forte.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Reprehensa. Constituamus.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                    </article>
-                                    <!-- story with normal title -->
-                                    <article class="story story--light story--border">
-                                        <h2 class="story__title"><a href="3-detail.html">Assueverit aristippi alterum legendum novum posteri gravis eriguntur.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Caritatem bestiae.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                    </article>
-                                    <!-- story with normal title -->
-                                    <article class="story story--light story--border">
-                                        <h2 class="story__title"><a href="3-detail.html">Formidinum legant magni vivamus universas oportet facillime quin.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Filio constituant.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                    </article>
-                                </div>
-                            </section>
-                            <!-- normalzone -->
-                            <section class="zone">
-                                <h3 class="zone__header">
-                                    <a href="" class="zone__title">Pháp luật</a>
-                                    <a href="" class="zone__sub-title">Tin thế giới</a>
-                                    <a href="" class="zone__sub-title">Hồ sơ</a>
-                                    <a href="" class="zone__sub-title">Chuyện lạ thế giới</a>
-                                </h3>
-                                <div class="zone__content">
-                                    <!-- story normal with bold title-->
-                                    <article class="story">
-                                        <figure class="story__thumb">
-                                            <a href="3-detail.html"><img src="https://source.unsplash.com/random/310x174?sig=9" alt=""></a>
-                                        </figure>
-                                        <h2 class="story__title"><a href="3-detail.html">Artifex poterimus cognita legendum arguerent meminerunt graecum, appetendi.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Tempore viderer.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                        <div class="story__desc">Litteras efficiat invitat vituperata iucundius mererer, consequatur sumitur rem eosdem. Commodis testibus certe expetendum, imitarentur.</div>
-                                    </article>
-                                    <!-- story with normal title -->
-                                    <article class="story story--light story--border">
-                                        <h2 class="story__title"><a href="3-detail.html">Sentit, audire commune logikh illud transferam. Magnosque.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Reprehensa. Constituamus.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                    </article>
-                                    <!-- story with normal title -->
-                                    <article class="story story--light story--border">
-                                        <h2 class="story__title"><a href="3-detail.html">Assueverit aristippi alterum legendum novum posteri gravis eriguntur.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Caritatem bestiae.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                    </article>
-                                    <!-- story with normal title -->
-                                    <article class="story story--light story--border">
-                                        <h2 class="story__title"><a href="3-detail.html">Formidinum legant magni vivamus universas oportet facillime quin.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Filio constituant.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                    </article>
-                                </div>
-                            </section>
-                            <!-- normalzone -->
-                            <section class="zone">
-                                <h3 class="zone__header">
-                                    <a href="" class="zone__title">Tấm lòng nhân ái</a>
-                                    <a href="" class="zone__sub-title">Hoàn cảnh</a>
-                                    <a href="" class="zone__sub-title">Ủng hộ</a>
-                                    <a href="" class="zone__sub-title">Kết chuyển</a>
-                                </h3>
-                                <div class="zone__content">
-                                    <!-- story normal with bold title-->
-                                    <article class="story">
-                                        <figure class="story__thumb">
-                                            <a href="3-detail.html"><img src="https://source.unsplash.com/random/310x174?sig=10" alt=""></a>
-                                        </figure>
-                                        <h2 class="story__title"><a href="3-detail.html">Comparare, probarem sitisque ignota evolvendis quoque movet, maximasque.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Tempore viderer.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                        <div class="story__desc">Arridens metus expectat quosque, ex multa amputata, malivoli compluribus dialectica maximisque, oporteat tantam reici mutae.</div>
-                                    </article>
-                                    <!-- story with normal title -->
-                                    <article class="story story--light story--border">
-                                        <h2 class="story__title"><a href="3-detail.html">Vestrae ceteris quippiam veserim bonorum dicturum latinis.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Reprehensa. Constituamus.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                    </article>
-                                    <!-- story with normal title -->
-                                    <article class="story story--light story--border">
-                                        <h2 class="story__title"><a href="3-detail.html">Assueverit aristippi alterum legendum novum posteri gravis eriguntur.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Caritatem bestiae.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                    </article>
-                                    <!-- story with normal title -->
-                                    <article class="story story--light story--border">
-                                        <h2 class="story__title"><a href="3-detail.html">Formidinum legant magni vivamus universas oportet facillime quin.</a></h2>
-                                        <div class="story__meta">
-                                            <a href="2-category.html" class="story__source">Filio constituant.</a>
-                                            <time datetime="2011-01-12">January 12th, 2011</time>
-                                        </div>
-                                    </article>
-                                </div>
-                            </section>
-                        </div>
-                    </div>
-                    <!-- aside zone -->
-                    <aside class="zone--aside">
-                        <!-- latest zone -->
-                        <section class="zone zone--grey">
-                            <h3 class="zone__header"><a href="" class="zone__title">Tin mới</a></h3>
-                            <div class="zone__content">
-                                <!-- story normal with bold title-->
-                                <article class="story">
-                                    <figure class="story__thumb">
-                                        <a href="3-detail.html"><img src="https://source.unsplash.com/random/186x104?sig=11" alt=""></a>
-                                    </figure>
-                                    <h2 class="story__title"><a href="3-detail.html">Tempus senserit illa mirari conducunt referri, maluisti.</a></h2>
-                                    <div class="story__meta">
-                                        <a href="2-category.html" class="story__source">Laudatur malivoli.</a>
-                                        <time datetime="2011-01-12">January 12th, 2011</time>
-                                    </div>
-                                </article>
-                                <!-- story normal with bold title-->
-                                <article class="story">
-                                    <figure class="story__thumb">
-                                        <a href="3-detail.html"><img src="https://source.unsplash.com/random/186x104?sig=12" alt=""></a>
-                                    </figure>
-                                    <h2 class="story__title"><a href="3-detail.html">Medicorum possum pararetur maximi, vim ego venandi.</a></h2>
-                                    <div class="story__meta">
-                                        <a href="2-category.html" class="story__source">Detraxit successerit.</a>
-                                        <time datetime="2011-01-12">January 12th, 2011</time>
-                                    </div>
-                                </article>
-                                <!-- story normal with bold title-->
-                                <article class="story">
-                                    <figure class="story__thumb">
-                                        <a href="3-detail.html"><img src="https://source.unsplash.com/random/186x104?sig=13" alt=""></a>
-                                    </figure>
-                                    <h2 class="story__title"><a href="3-detail.html">Simplicem synephebos aliquo honesto sine num repetitis.</a></h2>
-                                    <div class="story__meta">
-                                        <a href="2-category.html" class="story__source">Expressas quamque.</a>
-                                        <time datetime="2011-01-12">January 12th, 2011</time>
-                                    </div>
-                                </article>
-                                <!-- story normal with bold title-->
-                                <article class="story">
-                                    <figure class="story__thumb">
-                                        <a href="3-detail.html"><img src="https://source.unsplash.com/random/186x104?sig=14" alt=""></a>
-                                    </figure>
-                                    <h2 class="story__title"><a href="3-detail.html">Futuros habere dictum tueri ennii, invidia, expeteretur.</a></h2>
-                                    <div class="story__meta">
-                                        <a href="2-category.html" class="story__source">Iudicem mediocris.</a>
-                                        <time datetime="2011-01-12">January 12th, 2011</time>
-                                    </div>
-                                </article>
-                                <!-- story normal with bold title-->
-                                <article class="story">
-                                    <figure class="story__thumb">
-                                        <a href="3-detail.html"><img src="https://source.unsplash.com/random/186x104?sig=15" alt=""></a>
-                                    </figure>
-                                    <h2 class="story__title"><a href="3-detail.html">Multitudinem, tenebo, appellantur utramque, intervalla, facerem legantur.</a></h2>
-                                    <div class="story__meta">
-                                        <a href="2-category.html" class="story__source">Maximo molestiam.</a>
-                                        <time datetime="2011-01-12">January 12th, 2011</time>
-                                    </div>
-                                </article>
-                            </div>
-                        </section>
-                        <!-- banner 160x600 -->
-                        <div class="qc">
-                            <a href="#"><img src="https://source.unsplash.com/random/160x600?sig=0" alt=""></a>
-                            <p>banner 160x600</p>
-                        </div>
-                        <!-- banner 160x600 -->
-                        <div class="qc">
-                            <a href="#"><img src="https://source.unsplash.com/random/160x600?sig=1" alt=""></a>
-                            <p>banner 160x600</p>
-                        </div>
-                    </aside>
                 </div>
             </div>
-            <!-- sidebar col -->
+            <!-- .sidebar-col -->
             <div class="sidebar-col">
-                <!-- normalzone -->
-                <section class="zone">
-                    <h3 class="zone__header">
-                        <a href="2-category.html" class="zone__title">Đời sống</a>
-                        <a href="2-category.html" class="zone__sub-title">Tình yêu</a>
-                        <a href="2-category.html" class="zone__sub-title">Mẹo hay</a>
-                        <a href="2-category.html" class="zone__sub-title">Sống đẹp</a>
-                    </h3>
-                    <div class="zone__content">
-                        <!-- story with floating right thumbnail -->
-                        <article class="story story--horizontal">
-                            <figure class="story__thumb">
-                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/70x52?sig=1" alt=""></a>
-                            </figure>
-                            <h2 class="story__title"><a href="3-detail.html">Sapiens quoquo platonem epicureum emolumento comit molestiam possint.</a></h2>
-                            <div class="story__meta">
-                                <a href="2-category.html" class="story__source">Thanh niên</a>
-                                <time datetime="2011-01-12">January 12th, 2011</time>
-                            </div>
-                        </article>
-                        <!-- story with floating right thumbnail -->
-                        <article class="story story--horizontal">
-                            <figure class="story__thumb">
-                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/70x52?sig=2" alt=""></a>
-                            </figure>
-                            <h2 class="story__title"><a href="3-detail.html">Propositum. Sophocles sequimur maxime provident sollicitant. Disputari eruditus.</a></h2>
-                            <div class="story__meta">
-                                <a href="2-category.html" class="story__source">Thanh niên</a>
-                                <time datetime="2011-01-12">January 12th, 2011</time>
-                            </div>
-                        </article>
-                        <!-- story with floating right thumbnail -->
-                        <article class="story story--horizontal">
-                            <figure class="story__thumb">
-                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/70x52?sig=3" alt=""></a>
-                            </figure>
-                            <h2 class="story__title"><a href="3-detail.html">Perdiscere sapientia disciplina pater personae paulo angore aperiri.</a></h2>
-                            <div class="story__meta">
-                                <a href="2-category.html" class="story__source">Thanh niên</a>
-                                <time datetime="2011-01-12">January 12th, 2011</time>
-                            </div>
-                        </article>
-                        <!-- story with floating right thumbnail -->
-                        <article class="story story--horizontal">
-                            <figure class="story__thumb">
-                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/70x52?sig=4" alt=""></a>
-                            </figure>
-                            <h2 class="story__title"><a href="3-detail.html">Similia discedere quiddam benivolentiam se. Malint cupiditatum hostem.</a></h2>
-                            <div class="story__meta">
-                                <a href="2-category.html" class="story__source">Thanh niên</a>
-                                <time datetime="2011-01-12">January 12th, 2011</time>
-                            </div>
-                        </article>
-                    </div>
-                </section>
-                <!-- banner 300x250 -->
-                <div class="qc"><a href="#"><img src="https://source.unsplash.com/random/300x250?sig=1" alt=""></a>
-                    <p class="text-center">Banner 300x250</p>
+                <!-- qc -->
+                <div class="qc">
+                    <a href="#"><img src="fig-image/ads300x250.jpg" alt=""></a>
                 </div>
-                <!-- two cols zone -->
-                <section class="zone">
-                    <h3 class="zone__header">
-                        <a href="2-category.html" class="zone__title">Sức khỏe</a>
-                        <a href="2-category.html" class="zone__sub-title">Tiêu điểm y tế</a>
-                        <a href="2-category.html" class="zone__sub-title">Bệnh & Thuốc</a>
-                        <a href="2-category.html" class="zone__sub-title">Hỏi đáp</a>
-                    </h3>
-                    <div class="zone__content two-cols">
-                        <!-- story normal with bold title-->
-                        <article class="story">
-                            <figure class="story__thumb">
-                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/147x82?sig=1" alt=""></a>
-                            </figure>
-                            <h2 class="story__title"><a href="3-detail.html">Carere ullam inclusae, evertitur difficiles respirare audire sole.</a></h2>
-                            <div class="story__meta">
-                                <a href="2-category.html" class="story__source">Thanh niên</a>
-                                <time datetime="2011-01-12">January 12th, 2011</time>
-                            </div>
-                        </article>
-                        <!-- story normal with bold title-->
-                        <article class="story">
-                            <figure class="story__thumb">
-                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/147x82?sig=2" alt=""></a>
-                            </figure>
-                            <h2 class="story__title"><a href="3-detail.html">Carere ullam inclusae, evertitur difficiles respirare audire sole.</a></h2>
-                            <div class="story__meta">
-                                <a href="2-category.html" class="story__source">Thanh niên</a>
-                                <time datetime="2011-01-12">January 12th, 2011</time>
-                            </div>
-                        </article>
-                        <!-- story normal with bold title-->
-                        <article class="story">
-                            <figure class="story__thumb">
-                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/147x82?sig=3" alt=""></a>
-                            </figure>
-                            <h2 class="story__title"><a href="3-detail.html">Carere ullam inclusae, evertitur difficiles respirare audire sole.</a></h2>
-                            <div class="story__meta">
-                                <a href="2-category.html" class="story__source">Thanh niên</a>
-                                <time datetime="2011-01-12">January 12th, 2011</time>
-                            </div>
-                        </article>
-                        <!-- story normal with bold title-->
-                        <article class="story">
-                            <figure class="story__thumb">
-                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/147x82?sig=4" alt=""></a>
-                            </figure>
-                            <h2 class="story__title"><a href="3-detail.html">Carere ullam inclusae, evertitur difficiles respirare audire sole.</a></h2>
-                            <div class="story__meta">
-                                <a href="2-category.html" class="story__source">Thanh niên</a>
-                                <time datetime="2011-01-12">January 12th, 2011</time>
-                            </div>
-                        </article>
-                    </div>
-                </section>
-                <!-- normalzone -->
-                <section class="zone">
-                    <h3 class="zone__header">
-                        <a href="2-category.html" class="zone__title">Học tiếng Anh</a>
-                        <a href="2-category.html" class="zone__sub-title">Bí quyết học</a>
-                        <a href="2-category.html" class="zone__sub-title">Học và chơi</a>
-                        <a href="2-category.html" class="zone__sub-title">Luyện tập</a>
-                    </h3>
-                    <div class="zone__content">
-                        <!-- story with floating right thumbnail -->
-                        <article class="story story--horizontal">
-                            <figure class="story__thumb">
-                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/70x52?sig=11" alt=""></a>
-                            </figure>
-                            <h2 class="story__title"><a href="3-detail.html">Sapiens quoquo platonem epicureum emolumento comit molestiam possint.</a></h2>
-                            <div class="story__meta">
-                                <a href="2-category.html" class="story__source">Thanh niên</a>
-                                <time datetime="2011-01-12">January 12th, 2011</time>
-                            </div>
-                        </article>
-                        <!-- story with floating right thumbnail -->
-                        <article class="story story--horizontal">
-                            <figure class="story__thumb">
-                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/70x52?sig=12" alt=""></a>
-                            </figure>
-                            <h2 class="story__title"><a href="3-detail.html">Propositum. Sophocles sequimur maxime provident sollicitant. Disputari eruditus.</a></h2>
-                            <div class="story__meta">
-                                <a href="2-category.html" class="story__source">Thanh niên</a>
-                                <time datetime="2011-01-12">January 12th, 2011</time>
-                            </div>
-                        </article>
-                        <!-- story with floating right thumbnail -->
-                        <article class="story story--horizontal">
-                            <figure class="story__thumb">
-                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/70x52?sig=13" alt=""></a>
-                            </figure>
-                            <h2 class="story__title"><a href="3-detail.html">Perdiscere sapientia disciplina pater personae paulo angore aperiri.</a></h2>
-                            <div class="story__meta">
-                                <a href="2-category.html" class="story__source">Thanh niên</a>
-                                <time datetime="2011-01-12">January 12th, 2011</time>
-                            </div>
-                        </article>
-                        <!-- story with floating right thumbnail -->
-                        <article class="story story--horizontal">
-                            <figure class="story__thumb">
-                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/70x52?sig=14" alt=""></a>
-                            </figure>
-                            <h2 class="story__title"><a href="3-detail.html">Similia discedere quiddam benivolentiam se. Malint cupiditatum hostem.</a></h2>
-                            <div class="story__meta">
-                                <a href="2-category.html" class="story__source">Thanh niên</a>
-                                <time datetime="2011-01-12">January 12th, 2011</time>
-                            </div>
-                        </article>
-                    </div>
-                </section>
-                <!-- banner 300x250 -->
-                <div class="qc"><a href="#"><img src="https://source.unsplash.com/random/300x250?sig=2" alt=""></a>
-                    <p class="text-center">Banner 300x250</p>
+                <!-- qc -->
+                <div class="qc">
+                    <a href="#"><img src="fig-image/ads300x250.jpg" alt=""></a>
                 </div>
-                <!-- normalzone -->
-                <section class="zone">
-                    <h3 class="zone__header">
-                        <a href="2-category.html" class="zone__title">Quà tặng cuộc sống</a>
-                    </h3>
-                    <div class="zone__content">
-                        <!-- story with floating right thumbnail -->
-                        <article class="story story--horizontal">
-                            <figure class="story__thumb">
-                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/70x52?sig=21" alt=""></a>
-                            </figure>
-                            <h2 class="story__title"><a href="3-detail.html">Sapiens quoquo platonem epicureum emolumento comit molestiam possint.</a></h2>
-                            <div class="story__meta">
-                                <a href="2-category.html" class="story__source">Thanh niên</a>
-                                <time datetime="2011-01-12">January 12th, 2011</time>
-                            </div>
-                        </article>
-                        <!-- story with floating right thumbnail -->
-                        <article class="story story--horizontal">
-                            <figure class="story__thumb">
-                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/70x52?sig=22" alt=""></a>
-                            </figure>
-                            <h2 class="story__title"><a href="3-detail.html">Propositum. Sophocles sequimur maxime provident sollicitant. Disputari eruditus.</a></h2>
-                            <div class="story__meta">
-                                <a href="2-category.html" class="story__source">Thanh niên</a>
-                                <time datetime="2011-01-12">January 12th, 2011</time>
-                            </div>
-                        </article>
-                        <!-- story with floating right thumbnail -->
-                        <article class="story story--horizontal">
-                            <figure class="story__thumb">
-                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/70x52?sig=23" alt=""></a>
-                            </figure>
-                            <h2 class="story__title"><a href="3-detail.html">Perdiscere sapientia disciplina pater personae paulo angore aperiri.</a></h2>
-                            <div class="story__meta">
-                                <a href="2-category.html" class="story__source">Thanh niên</a>
-                                <time datetime="2011-01-12">January 12th, 2011</time>
-                            </div>
-                        </article>
-                        <!-- story with floating right thumbnail -->
-                        <article class="story story--horizontal">
-                            <figure class="story__thumb">
-                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/70x52?sig=24" alt=""></a>
-                            </figure>
-                            <h2 class="story__title"><a href="3-detail.html">Similia discedere quiddam benivolentiam se. Malint cupiditatum hostem.</a></h2>
-                            <div class="story__meta">
-                                <a href="2-category.html" class="story__source">Thanh niên</a>
-                                <time datetime="2011-01-12">January 12th, 2011</time>
-                            </div>
-                        </article>
-                    </div>
-                </section>
-                <!-- two cols zone -->
+            </div>
+            <!-- floating left banner -->
+            <div class="qc--floating qc--left">
+                <!-- floating left -->
+                <div class="qc">
+                    <a href="#"><img src="https://source.unsplash.com/random/120x240?sig=1" alt=""></a>
+                    <p class="text-muted text-center">banner 120x240</p>
+                </div>
+                <div class="qc">
+                    <a href="#"><img src="https://source.unsplash.com/random/120x240?sig=2" alt=""></a>
+                    <p class="text-muted text-center">banner 120x240</p>
+                </div>
+            </div>
+            <!-- floating right banner -->
+            <div class="qc--floating qc--right">
+                <div class="qc">
+                    <a href="#"><img src="https://source.unsplash.com/random/120x240?sig=3" alt=""></a>
+                    <p class="text-muted text-center">banner 120x240</p>
+                </div>
+                <!-- floating right -->
+                <div class="qc">
+                    <a href="#"><img src="https://source.unsplash.com/random/120x240?sig=4" alt=""></a>
+                    <p class="text-muted text-center">banner 120x240</p>
+                </div>
+            </div>
+        </div>
+        <!-- index media zone -->
+        <div class="area area--grey">
+            <div class="site-wrap">
                 <section class="zone">
                     <div class="zone__header">
-                        <a href="2-category.html" class="zone__title">Sức khỏe</a>
-                        <a href="2-category.html" class="zone__sub-title">Tiêu điểm y tế</a>
-                        <a href="2-category.html" class="zone__sub-title">Bệnh & Thuốc</a>
-                        <a href="2-category.html" class="zone__sub-title">Hỏi đáp</a>
+                        <h3 class="zone__title">
+                            <a href="2-category.html" class="zone__title">Media</a>
+                        </h3>
                     </div>
-                    <div class="zone__content two-cols">
-                        <!-- story normal with bold title-->
-                        <article class="story">
+                    <div class="zone__content">
+                        <div class="four-cols">
+                            <article class="story story--video">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img class="img-responsive" src="https://source.unsplash.com/random/382x214?sig=0" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Supplicii stabilique incurrunt effici. Fere firme cotidie intelleges.</a></h2>
+                            </article>
+                            <article class="story story--photo">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img class="img-responsive" src="https://source.unsplash.com/random/382x214?sig=1" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Multoque salutatus, arte praesens. Fecit censes exeamus dicemus.</a></h2>
+                            </article>
+                            <article class="story">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img class="img-responsive" src="https://source.unsplash.com/random/382x214?sig=2" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Assentiar greges, ea viveremus disputando. Expectamus, attico nullas.</a></h2>
+                            </article>
+                            <article class="story">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img class="img-responsive" src="https://source.unsplash.com/random/382x214?sig=3" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Repellat maiestatis earumque quidam probatum splendore video. Natum.</a></h2>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!-- index zone listing -->
+        <div class="site-wrap has-qc-floating">
+            <!-- main content -->
+            <div class="main-col">
+                <div class="main--featured">
+                    <!-- featured listing -->
+                    <section class="zone zone--grey">
+                        <article class="story story--horizontal">
                             <figure class="story__thumb">
-                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/147x82?sig=11" alt=""></a>
+                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/80x60?sig=1" alt=""></a>
                             </figure>
-                            <h2 class="story__title"><a href="3-detail.html">Carere ullam inclusae, evertitur difficiles respirare audire sole.</a></h2>
-                            <div class="story__meta">
-                                <a href="2-category.html" class="story__source">Thanh niên</a>
-                                <time datetime="2011-01-12">January 12th, 2011</time>
-                            </div>
+                            <h2 class="story__title"><a href="3-detail.html">Patrioque controversia volumus vituperari assidua et, cursu movere.</a></h2>
                         </article>
-                        <!-- story normal with bold title-->
-                        <article class="story">
+                        <article class="story story--horizontal">
                             <figure class="story__thumb">
-                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/147x82?sig=12" alt=""></a>
+                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/80x60?sig=12" alt=""></a>
                             </figure>
-                            <h2 class="story__title"><a href="3-detail.html">Carere ullam inclusae, evertitur difficiles respirare audire sole.</a></h2>
-                            <div class="story__meta">
-                                <a href="2-category.html" class="story__source">Thanh niên</a>
-                                <time datetime="2011-01-12">January 12th, 2011</time>
-                            </div>
+                            <h2 class="story__title"><a href="3-detail.html">Numquam malivoli dedecora nam futurove, dicantur quaeso philosophia.</a></h2>
                         </article>
-                        <!-- story normal with bold title-->
-                        <article class="story">
+                        <article class="story story--horizontal">
                             <figure class="story__thumb">
-                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/147x82?sig=13" alt=""></a>
+                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/80x60?sig=13" alt=""></a>
                             </figure>
-                            <h2 class="story__title"><a href="3-detail.html">Carere ullam inclusae, evertitur difficiles respirare audire sole.</a></h2>
-                            <div class="story__meta">
-                                <a href="2-category.html" class="story__source">Thanh niên</a>
-                                <time datetime="2011-01-12">January 12th, 2011</time>
-                            </div>
+                            <h2 class="story__title"><a href="3-detail.html">Segniorem afflueret ornateque probabo iisque oportere, fames illum.</a></h2>
                         </article>
-                        <!-- story normal with bold title-->
-                        <article class="story">
+                        <article class="story story--horizontal">
                             <figure class="story__thumb">
-                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/147x82?sig=14" alt=""></a>
+                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/80x60?sig=14" alt=""></a>
                             </figure>
-                            <h2 class="story__title"><a href="3-detail.html">Carere ullam inclusae, evertitur difficiles respirare audire sole.</a></h2>
-                            <div class="story__meta">
-                                <a href="2-category.html" class="story__source">Thanh niên</a>
-                                <time datetime="2011-01-12">January 12th, 2011</time>
+                            <h2 class="story__title"><a href="3-detail.html">Falsi tot sanguinem patientiamque concursionibus vester iudicante latina.</a></h2>
+                        </article>
+                        <article class="story story--horizontal">
+                            <figure class="story__thumb">
+                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/80x60?sig=15" alt=""></a>
+                            </figure>
+                            <h2 class="story__title"><a href="3-detail.html">Clarorum, consulatu, consentaneum sol numeranda quidam vocent magnam.</a></h2>
+                        </article>
+                        <article class="story story--horizontal">
+                            <figure class="story__thumb">
+                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/80x60?sig=16" alt=""></a>
+                            </figure>
+                            <h2 class="story__title"><a href="3-detail.html">Varias consoletur multam interrogare inter loqui interrogare quam.</a></h2>
+                        </article>
+                        <article class="story story--horizontal">
+                            <figure class="story__thumb">
+                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/80x60?sig=17" alt=""></a>
+                            </figure>
+                            <h2 class="story__title"><a href="3-detail.html">Electram ornateque cupiditates expressas consecutus laetitiam, profecto loqueretur.</a></h2>
+                        </article>
+                        <article class="story story--horizontal">
+                            <figure class="story__thumb">
+                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/80x60?sig=1" alt=""></a>
+                            </figure>
+                            <h2 class="story__title"><a href="3-detail.html">Poenis. Disserendi postremo aliquam docti neglegentur locos affecta.</a></h2>
+                        </article>
+                        <article class="story story--horizontal">
+                            <figure class="story__thumb">
+                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/80x60?sig=18" alt=""></a>
+                            </figure>
+                            <h2 class="story__title"><a href="3-detail.html">Bonum adversantur re discordia inportuno grata magistra dignitatis.</a></h2>
+                        </article>
+                        <article class="story story--horizontal">
+                            <figure class="story__thumb">
+                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/80x60?sig=19" alt=""></a>
+                            </figure>
+                            <h2 class="story__title"><a href="3-detail.html">Patrioque viris falli. Facilis transferrem quaerendum ferae veniat.</a></h2>
+                        </article>
+                        <article class="story story--horizontal">
+                            <figure class="story__thumb">
+                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/80x60?sig=20" alt=""></a>
+                            </figure>
+                            <h2 class="story__title"><a href="3-detail.html">Suo imagines bonarum, semel scaevolam iustioribus, voluptates indoctum.</a></h2>
+                        </article>
+                        <article class="story story--horizontal">
+                            <figure class="story__thumb">
+                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/80x60?sig=21" alt=""></a>
+                            </figure>
+                            <h2 class="story__title"><a href="3-detail.html">Tollunt defuturum derigatur nominant angere menandro quaedam, torquatos.</a></h2>
+                        </article>
+                    </section>
+                    <!-- top zone  -->
+                    <div class="zone-listing">
+                        <!-- top zone -->
+                        <section class="zone">
+                            <div class="zone__header">
+                                <h3 class="zone__title"><a href="2-category.html">Thời sự</a></h3>
                             </div>
+                            <div class="zone__content">
+                                <article class="story">
+                                    <figure class="story__thumb">
+                                        <a href="3-detail.html"><img src="https://source.unsplash.com/random/277x156?sig=3" alt=""></a>
+                                    </figure>
+                                    <h2 class="story__title"><a href="3-detail.html">Mollis imitarentur rationem peccant dissentiet, gravioribus sentiant.</a></h2>
+                                    <div class="story__desc">Lãnh đạo hai nước nhất trí thiết lập khuôn khổ “Quan hệ Đối tác, hợp tác toàn diện” giữa nước CHXHCN Việt Nam và...</div>
+                                </article>
+                                <div class="story-listing">
+                                    <article class="story story--bullet">
+                                        <h2 class="story__title"><a href="3-detail.html">Recusabo perpessio a is affecti seiunctum sentiri peccandi.</a></h2>
+                                    </article>
+                                    <article class="story story--bullet">
+                                        <h2 class="story__title"><a href="3-detail.html">Homines gloriatur cadere eo. Civitatis, propriae consectetur diligant.</a></h2>
+                                    </article>
+                                    <article class="story story--bullet">
+                                        <h2 class="story__title"><a href="3-detail.html">Asperner acute quaeque facilius tuemur iucunda triari divitias.</a></h2>
+                                    </article>
+                                    <article class="story story--bullet">
+                                        <h2 class="story__title"><a href="3-detail.html">Excelsus nomini. Ignavi optimus efficiatur quidam principio unam.</a></h2>
+                                    </article>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- top zone -->
+                        <section class="zone">
+                            <div class="zone__header">
+                                <h3 class="zone__title"><a href="2-category.html">Xây dựng Đảng</a></h3>
+                            </div>
+                            <div class="zone__content">
+                                <article class="story">
+                                    <figure class="story__thumb">
+                                        <a href="3-detail.html"><img src="https://source.unsplash.com/random/277x156?sig=1" alt=""></a>
+                                    </figure>
+                                    <h2 class="story__title"><a href="3-detail.html">Morbi moderatius bella noster cognitionis, reprehendunt dictas.</a></h2>
+                                    <div class="story__desc">Lãnh đạo hai nước nhất trí thiết lập khuôn khổ “Quan hệ Đối tác, hợp tác toàn diện” giữa nước CHXHCN Việt Nam và...</div>
+                                </article>
+                                <div class="story-listing">
+                                    <article class="story story--bullet">
+                                        <h2 class="story__title"><a href="3-detail.html">Recusabo perpessio a is affecti seiunctum sentiri peccandi.</a></h2>
+                                    </article>
+                                    <article class="story story--bullet">
+                                        <h2 class="story__title"><a href="3-detail.html">Homines gloriatur cadere eo. Civitatis, propriae consectetur diligant.</a></h2>
+                                    </article>
+                                    <article class="story story--bullet">
+                                        <h2 class="story__title"><a href="3-detail.html">Asperner acute quaeque facilius tuemur iucunda triari divitias.</a></h2>
+                                    </article>
+                                    <article class="story story--bullet">
+                                        <h2 class="story__title"><a href="3-detail.html">Inprobis reque mortem arridens praeda obruamus.</a></h2>
+                                    </article>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- top zone -->
+                        <section class="zone">
+                            <div class="zone__header">
+                                <h3 class="zone__title"><a href="2-category.html">Kinh tế</a></h3>
+                            </div>
+                            <div class="zone__content">
+                                <article class="story">
+                                    <figure class="story__thumb">
+                                        <a href="3-detail.html"><img src="https://source.unsplash.com/random/277x156?sig=2" alt=""></a>
+                                    </figure>
+                                    <h2 class="story__title"><a href="3-detail.html">Voluptati caret liberamur maledici amarissimam totam hunc.</a></h2>
+                                    <div class="story__desc">Lãnh đạo hai nước nhất trí thiết lập khuôn khổ “Quan hệ Đối tác, hợp tác toàn diện” giữa nước CHXHCN Việt Nam và...</div>
+                                </article>
+                                <div class="story-listing">
+                                    <article class="story story--bullet">
+                                        <h2 class="story__title"><a href="3-detail.html">Recusabo perpessio a is affecti seiunctum sentiri peccandi.</a></h2>
+                                    </article>
+                                    <article class="story story--bullet">
+                                        <h2 class="story__title"><a href="3-detail.html">Homines gloriatur cadere eo. Civitatis, propriae consectetur diligant.</a></h2>
+                                    </article>
+                                    <article class="story story--bullet">
+                                        <h2 class="story__title"><a href="3-detail.html">Asperner acute quaeque facilius tuemur iucunda triari divitias.</a></h2>
+                                    </article>
+                                    <article class="story story--bullet">
+                                        <h2 class="story__title"><a href="3-detail.html">Nasci labore velit omnem tueri praeterita.</a></h2>
+                                    </article>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <!-- ads 728x90 -->
+                <div class="qc">
+                    <a href="#"><img src="fig-image/ads-728x90.jpg" alt=""></a>
+                </div>
+                <!-- zone primary -->
+                <section class="zone zone--primary">
+                    <div class="zone__header">
+                        <h3 class="zone__title"><a href="2-category.html">Giáo dục</a></h3>
+                    </div>
+                    <div class="zone__content">
+                        <article class="story story--featured">
+                            <figure class="story__thumb">
+                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/376x212?sig=0" alt=""></a>
+                            </figure>
+                            <h2 class="story__title"><a href="3-detail.html">Voluptati caret liberamur maledici amarissimam totam hunc.</a></h2>
+                            <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                        </article>
+                        <div class="story-listing">
+                            <article class="story story--horizontal">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/180x100?sig=21" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Ortum fecerit verear quibusdam privavisse asperner odit conetur.</a></h2>
+                                <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                            </article>
+                            <article class="story story--horizontal">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/180x100?sig=22" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Procedat angusta saperet, latine partem requietis aperiri siculis.</a></h2>
+                                <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                            </article>
+                            <article class="story story--horizontal">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/180x100?sig=23" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Laus filio parvam. Metu alias sequatur partes chrysippo.</a></h2>
+                                <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+                <!-- 3 cols story -->
+                <section class="zone">
+                    <div class="zone__header">
+                        <h3 class="zone__title"><a href="2-category.html">Xã hội</a></h3>
+                    </div>
+                    <div class="zone__content">
+                        <ul class="three-cols">
+                            <li>
+                                <article class="story">
+                                    <figure class="story__thumb">
+                                        <a href="3-detail.html"><img src="https://source.unsplash.com/random/277x156?sig=31" alt=""></a>
+                                    </figure>
+                                    <h2 class="story__title"><a href="3-detail.html">Controversia dissentiunt senserit eram extremo, dare scriptum inermis.</a></h2>
+                                    <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                                </article>
+                            </li>
+                            <li>
+                                <article class="story">
+                                    <figure class="story__thumb">
+                                        <a href="3-detail.html"><img src="https://source.unsplash.com/random/277x156?sig=32" alt=""></a>
+                                    </figure>
+                                    <h2 class="story__title"><a href="3-detail.html">Minuit, iucunditas, dolere addidisti exercitus ibidem cuiquam reliqui.</a></h2>
+                                    <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                                </article>
+                            </li>
+                            <li>
+                                <article class="story">
+                                    <figure class="story__thumb">
+                                        <a href="3-detail.html"><img src="https://source.unsplash.com/random/277x156?sig=33" alt=""></a>
+                                    </figure>
+                                    <h2 class="story__title"><a href="3-detail.html">Delectant abhorreant familias sol controversia. Inesse oblivione praeterea.</a></h2>
+                                    <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- ads 728x90 -->
+                <div class="qc">
+                    <a href="#"><img src="fig-image/ads-728x90.jpg" alt=""></a>
+                </div>
+                <!-- zone primary -->
+                <section class="zone zone--primary">
+                    <div class="zone__header">
+                        <h3 class="zone__title"><a href="2-category.html">Quân sự</a></h3>
+                    </div>
+                    <div class="zone__content">
+                        <article class="story story--featured">
+                            <figure class="story__thumb">
+                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/376x212?sig=0" alt=""></a>
+                            </figure>
+                            <h2 class="story__title"><a href="3-detail.html">Voluptati caret liberamur maledici amarissimam totam hunc.</a></h2>
+                            <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                        </article>
+                        <div class="story-listing">
+                            <article class="story story--horizontal">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/180x100?sig=21" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Ortum fecerit verear quibusdam privavisse asperner odit conetur.</a></h2>
+                                <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                            </article>
+                            <article class="story story--horizontal">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/180x100?sig=22" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Procedat angusta saperet, latine partem requietis aperiri siculis.</a></h2>
+                                <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                            </article>
+                            <article class="story story--horizontal">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/180x100?sig=23" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Laus filio parvam. Metu alias sequatur partes chrysippo.</a></h2>
+                                <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+                <!-- 3 cols story -->
+                <section class="zone">
+                    <div class="zone__header">
+                        <h3 class="zone__title"><a href="2-category.html">Vô xứ Nghệ</a></h3>
+                    </div>
+                    <div class="zone__content">
+                        <ul class="three-cols">
+                            <li>
+                                <article class="story">
+                                    <figure class="story__thumb">
+                                        <a href="3-detail.html"><img src="https://source.unsplash.com/random/277x156?sig=31" alt=""></a>
+                                    </figure>
+                                    <h2 class="story__title"><a href="3-detail.html">Controversia dissentiunt senserit eram extremo, dare scriptum inermis.</a></h2>
+                                    <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                                </article>
+                            </li>
+                            <li>
+                                <article class="story">
+                                    <figure class="story__thumb">
+                                        <a href="3-detail.html"><img src="https://source.unsplash.com/random/277x156?sig=32" alt=""></a>
+                                    </figure>
+                                    <h2 class="story__title"><a href="3-detail.html">Minuit, iucunditas, dolere addidisti exercitus ibidem cuiquam reliqui.</a></h2>
+                                    <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                                </article>
+                            </li>
+                            <li>
+                                <article class="story">
+                                    <figure class="story__thumb">
+                                        <a href="3-detail.html"><img src="https://source.unsplash.com/random/277x156?sig=33" alt=""></a>
+                                    </figure>
+                                    <h2 class="story__title"><a href="3-detail.html">Delectant abhorreant familias sol controversia. Inesse oblivione praeterea.</a></h2>
+                                    <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- ads 728x90 -->
+                <div class="qc">
+                    <a href="#"><img src="fig-image/ads-728x90.jpg" alt=""></a>
+                </div>
+                <!-- zone primary -->
+                <section class="zone zone--primary">
+                    <div class="zone__header">
+                        <h3 class="zone__title"><a href="2-category.html">Báo Nghệ An</a></h3>
+                    </div>
+                    <div class="zone__content">
+                        <article class="story story--featured">
+                            <figure class="story__thumb">
+                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/376x212?sig=0" alt=""></a>
+                            </figure>
+                            <h2 class="story__title"><a href="3-detail.html">Voluptati caret liberamur maledici amarissimam totam hunc.</a></h2>
+                            <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                        </article>
+                        <div class="story-listing">
+                            <article class="story story--horizontal">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/180x100?sig=21" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Ortum fecerit verear quibusdam privavisse asperner odit conetur.</a></h2>
+                                <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                            </article>
+                            <article class="story story--horizontal">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/180x100?sig=22" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Procedat angusta saperet, latine partem requietis aperiri siculis.</a></h2>
+                                <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                            </article>
+                            <article class="story story--horizontal">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/180x100?sig=23" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Laus filio parvam. Metu alias sequatur partes chrysippo.</a></h2>
+                                <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+                <!-- 3 cols story -->
+                <section class="zone">
+                    <div class="zone__header">
+                        <h3 class="zone__title"><a href="2-category.html">Thể thao</a></h3>
+                    </div>
+                    <div class="zone__content">
+                        <ul class="three-cols">
+                            <li>
+                                <article class="story">
+                                    <figure class="story__thumb">
+                                        <a href="3-detail.html"><img src="https://source.unsplash.com/random/277x156?sig=31" alt=""></a>
+                                    </figure>
+                                    <h2 class="story__title"><a href="3-detail.html">Controversia dissentiunt senserit eram extremo, dare scriptum inermis.</a></h2>
+                                    <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                                </article>
+                            </li>
+                            <li>
+                                <article class="story">
+                                    <figure class="story__thumb">
+                                        <a href="3-detail.html"><img src="https://source.unsplash.com/random/277x156?sig=32" alt=""></a>
+                                    </figure>
+                                    <h2 class="story__title"><a href="3-detail.html">Minuit, iucunditas, dolere addidisti exercitus ibidem cuiquam reliqui.</a></h2>
+                                    <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                                </article>
+                            </li>
+                            <li>
+                                <article class="story">
+                                    <figure class="story__thumb">
+                                        <a href="3-detail.html"><img src="https://source.unsplash.com/random/277x156?sig=33" alt=""></a>
+                                    </figure>
+                                    <h2 class="story__title"><a href="3-detail.html">Delectant abhorreant familias sol controversia. Inesse oblivione praeterea.</a></h2>
+                                    <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- zone primary -->
+                <section class="zone zone--primary">
+                    <div class="zone__header">
+                        <h3 class="zone__title"><a href="2-category.html">Giải trí</a></h3>
+                    </div>
+                    <div class="zone__content">
+                        <article class="story story--featured">
+                            <figure class="story__thumb">
+                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/376x212?sig=0" alt=""></a>
+                            </figure>
+                            <h2 class="story__title"><a href="3-detail.html">Voluptati caret liberamur maledici amarissimam totam hunc.</a></h2>
+                            <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                        </article>
+                        <div class="story-listing">
+                            <article class="story story--horizontal">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/180x100?sig=21" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Ortum fecerit verear quibusdam privavisse asperner odit conetur.</a></h2>
+                                <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                            </article>
+                            <article class="story story--horizontal">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/180x100?sig=22" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Procedat angusta saperet, latine partem requietis aperiri siculis.</a></h2>
+                                <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                            </article>
+                            <article class="story story--horizontal">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/180x100?sig=23" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Laus filio parvam. Metu alias sequatur partes chrysippo.</a></h2>
+                                <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+                <!-- 3 cols story -->
+                <section class="zone">
+                    <div class="zone__header">
+                        <h3 class="zone__title"><a href="2-category.html">Xe & công nghệ</a></h3>
+                    </div>
+                    <div class="zone__content">
+                        <ul class="three-cols">
+                            <li>
+                                <article class="story">
+                                    <figure class="story__thumb">
+                                        <a href="3-detail.html"><img src="https://source.unsplash.com/random/277x156?sig=31" alt=""></a>
+                                    </figure>
+                                    <h2 class="story__title"><a href="3-detail.html">Controversia dissentiunt senserit eram extremo, dare scriptum inermis.</a></h2>
+                                    <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                                </article>
+                            </li>
+                            <li>
+                                <article class="story">
+                                    <figure class="story__thumb">
+                                        <a href="3-detail.html"><img src="https://source.unsplash.com/random/277x156?sig=32" alt=""></a>
+                                    </figure>
+                                    <h2 class="story__title"><a href="3-detail.html">Minuit, iucunditas, dolere addidisti exercitus ibidem cuiquam reliqui.</a></h2>
+                                    <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                                </article>
+                            </li>
+                            <li>
+                                <article class="story">
+                                    <figure class="story__thumb">
+                                        <a href="3-detail.html"><img src="https://source.unsplash.com/random/277x156?sig=33" alt=""></a>
+                                    </figure>
+                                    <h2 class="story__title"><a href="3-detail.html">Delectant abhorreant familias sol controversia. Inesse oblivione praeterea.</a></h2>
+                                    <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- ads 728x90 -->
+                <div class="qc">
+                    <a href="#"><img src="fig-image/ads-728x90.jpg" alt=""></a>
+                </div>
+                <div class="zone-listing three-cols">
+                    <section class="zone">
+                        <div class="zone__header">
+                            <h3 class="zone__title"><a href="2-category.html">Pháp luật</a></h3>
+                        </div>
+                        <div class="zone__content">
+                            <article class="story">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/277x156?sig=41" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Inprobis quantus, explicatis percipit geometrica declarant tale percipi.</a></h2>
+                                <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                            </article>
+                            <article class="story story--horizontal">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/80x60?sig=40" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Initiis menandro, aristippus, ludicra turpis susciperet praetorem sentire.</a></h2>
+                            </article>
+                            <article class="story story--horizontal">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/80x60?sig=41" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Vitiis an numquam benivole fruuntur videantur has erimus.</a></h2>
+                            </article>
+                            <article class="story story--horizontal">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/80x60?sig=42" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Ut nesciunt, vel denique consequatur teneam, minuit ducimus.</a></h2>
+                            </article>
+                        </div>
+                    </section>
+                    <section class="zone">
+                        <div class="zone__header">
+                            <h3 class="zone__title"><a href="2-category.html">Quốc tế</a></h3>
+                        </div>
+                        <div class="zone__content">
+                            <article class="story">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/277x156?sig=42" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Inprobis quantus, explicatis percipit geometrica declarant tale percipi.</a></h2>
+                                <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                            </article>
+                            <article class="story story--horizontal">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/80x60?sig=50" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Initiis menandro, aristippus, ludicra turpis susciperet praetorem sentire.</a></h2>
+                            </article>
+                            <article class="story story--horizontal">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/80x60?sig=51" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Vitiis an numquam benivole fruuntur videantur has erimus.</a></h2>
+                            </article>
+                            <article class="story story--horizontal">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/80x60?sig=52" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Ut nesciunt, vel denique consequatur teneam, minuit ducimus.</a></h2>
+                            </article>
+                        </div>
+                    </section>
+                    <section class="zone">
+                        <div class="zone__header">
+                            <h3 class="zone__title"><a href="2-category.html">Phóng sự</a></h3>
+                        </div>
+                        <div class="zone__content">
+                            <article class="story">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/277x156?sig=43" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Inprobis quantus, explicatis percipit geometrica declarant tale percipi.</a></h2>
+                                <div class="story__desc">(Baonghean.vn) - Ở cả 6 chi bộ có nguy cơ không còn chi bộ của huyện Thanh Chương mới đây đều phát triển được đảng viên mới, gồm 7 đồng chí.</div>
+                            </article>
+                            <article class="story story--horizontal">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/80x60?sig=60" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Initiis menandro, aristippus, ludicra turpis susciperet praetorem sentire.</a></h2>
+                            </article>
+                            <article class="story story--horizontal">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/80x60?sig=61" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Vitiis an numquam benivole fruuntur videantur has erimus.</a></h2>
+                            </article>
+                            <article class="story story--horizontal">
+                                <figure class="story__thumb">
+                                    <a href="3-detail.html"><img src="https://source.unsplash.com/random/80x60?sig=62" alt=""></a>
+                                </figure>
+                                <h2 class="story__title"><a href="3-detail.html">Ut nesciunt, vel denique consequatur teneam, minuit ducimus.</a></h2>
+                            </article>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <!-- sidebar col-->
+            <div class="sidebar-col">
+                <!-- location news -->
+                <section class="zone">
+                    <div class="zone__header">
+                        <h3 class="zone__title"><a href="2-category.html">Tin địa phương</a></h3>
+                        <select name="" id="" class="form-control">
+                            <option value="TP. Vinh">TP. Vinh</option>
+                            <option value="Nam Đàn">Nam Đàn</option>
+                        </select>
+                    </div>
+                    <div class="zone__content">
+                        <article class="story story--horizontal">
+                            <figure class="story__thumb">
+                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/80x60?sig=70" alt=""></a>
+                            </figure>
+                            <h2 class="story__title"><a href="3-detail.html">Praeclarorum canes ullo falsi at inter acute philosophia.</a></h2>
+                        </article>
+                        <article class="story story--horizontal">
+                            <figure class="story__thumb">
+                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/80x60?sig=71" alt=""></a>
+                            </figure>
+                            <h2 class="story__title"><a href="3-detail.html">Sedulitatem angatur transferre sibi aptius probatum familiaritatem multitudinem.</a></h2>
+                        </article>
+                        <article class="story story--horizontal">
+                            <figure class="story__thumb">
+                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/80x60?sig=72" alt=""></a>
+                            </figure>
+                            <h2 class="story__title"><a href="3-detail.html">Exercitus eosdem effectrices inani investigandi quisquam. Pondere liber.</a></h2>
+                        </article>
+                        <article class="story story--horizontal">
+                            <figure class="story__thumb">
+                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/80x60?sig=73" alt=""></a>
+                            </figure>
+                            <h2 class="story__title"><a href="3-detail.html">Dissentiunt defuturum inducitur. Constantia augendas desiderare decore dissentio.</a></h2>
+                        </article>
+                        <article class="story story--horizontal">
+                            <figure class="story__thumb">
+                                <a href="3-detail.html"><img src="https://source.unsplash.com/random/80x60?sig=74" alt=""></a>
+                            </figure>
+                            <h2 class="story__title"><a href="3-detail.html">Utamur. Legatis carum captet, fruuntur futurove theseo assentior.</a></h2>
                         </article>
                     </div>
                 </section>
-                <!-- banner 300x250 -->
-                <div class="qc"><a href="#"><img src="https://source.unsplash.com/random/300x250?sig=3" alt=""></a>
-                    <p class="text-center">Banner 300x250</p>
+                <!-- qc -->
+                <div class="qc">
+                    <a href="#"><img src="fig-image/ads300x250.jpg" alt=""></a>
                 </div>
-                <!-- banner 300x600 -->
-                <div class="qc"><a href="#"><img src="https://source.unsplash.com/random/300x600?sig=1" alt=""></a>
-                    <p class="text-center">Banner 300x600</p>
+                <!-- weather zone -->
+                <div class="zone">
+                    <div class="zone__header">
+                        <h3 class="zone__title">Thời tiết</h3>
+                    </div>
+                    <div class="zone__content">
+                        <select name="" id="" class="form-control">
+                            <option value="Nghệ An">Nghệ An</option>
+                            <option value="Hà Nội">Hà Nội</option>
+                        </select>
+                        <div class="weather__today">
+                            <div class="weather__status">
+                                <span id="today-ic" class="ic-weather mostlycloudy"></span>
+                            </div>
+                            <div class="weather__info">
+                                <time class="weather__date" datetime="2011-01-12">Thứ ba, 29/08/2017</time>
+                                <div class="weather__temp">27°C</div>
+                                <div class="weather__desc">Mây thay đổi, có lúc mưa</div>
+                            </div>
+                        </div>
+                        <ul class="weather__listing">
+                            <li class="weather__day">
+                                <time class="weather__date" datetime="2011-01-12"> 29/08/2017</time>
+                                <div class="weather__status">
+                                    <span class="ic-weather clear"></span>
+                                </div>
+                                <div class="weather__temp">27°C - 32°C</div>
+                            </li>
+                            <li class="weather__day">
+                                <time class="weather__date" datetime="2011-01-12"> 29/08/2017</time>
+                                <div class="weather__status">
+                                    <span class="ic-weather clear"></span>
+                                </div>
+                                <div class="weather__temp">27°C - 32°C</div>
+                            </li>
+                            <li class="weather__day">
+                                <time class="weather__date" datetime="2011-01-12"> 29/08/2017</time>
+                                <div class="weather__status">
+                                    <span class="ic-weather clear"></span>
+                                </div>
+                                <div class="weather__temp">27°C - 32°C</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- tag link zone -->
+                <div class="zone">
+                    <div class="zone__header">
+                        <h3 class="zone__title">Tag Links</h3>
+                    </div>
+                    <div class="zone__content">
+                        <a class="tag__item" href="#">Huius facultas.</a>
+                        <a class="tag__item" href="#">Semper existimant.</a>
+                        <a class="tag__item" href="#">Tandem falli.</a>
+                    </div>
+                </div>
+                <!-- linked websites -->
+                <div class="zone">
+                    <div class="zone__header">
+                        <h3 class="zone__title">Liên kết website</h3></div>
+                    <div class="zone__content">
+                        <select name="" id="" class="form-control">
+                            <option value="- Chọn website -">- Chọn website -</option>
+                            <option value="Thông tấn xã Việt Nam"><a target="blank" href="http://www.vietnamplus.vn/">Thông tấn xã Việt Nam</a></option>
+                            <option value="Đài tiếng nói VN"><a target="blank" href="http://www.vov.vn/">Đài tiếng nói VN</a></option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <!-- floating left banner -->
+            <div class="qc--floating qc--left">
+                <!-- floating left -->
+                <div class="qc">
+                    <a href="#"><img src="https://source.unsplash.com/random/120x240?sig=21" alt=""></a>
+                    <p class="text-muted text-center">banner 120x240</p>
+                </div>
+                <div class="qc">
+                    <a href="#"><img src="https://source.unsplash.com/random/120x240?sig=22" alt=""></a>
+                    <p class="text-muted text-center">banner 120x240</p>
+                </div>
+            </div>
+            <!-- floating right banner -->
+            <div class="qc--floating qc--right">
+                <div class="qc">
+                    <a href="#"><img src="https://source.unsplash.com/random/120x240?sig=23" alt=""></a>
+                    <p class="text-muted text-center">banner 120x240</p>
+                </div>
+                <!-- floating right -->
+                <div class="qc">
+                    <a href="#"><img src="https://source.unsplash.com/random/120x240?sig=24" alt=""></a>
+                    <p class="text-muted text-center">banner 120x240</p>
                 </div>
             </div>
         </div>
@@ -1117,14 +998,19 @@
         <div class="footer__info">
             <div class="site-wrap">
                 <div class="footer__col">
-                    <p><b>Trang tin tổng hợp Cát Sa Mạc</b></p>
-                    <p>Phiên bản chạy thử nghiệm.</p>
-                    <p>Copyright 2017. All rights reserved.</p>
+                    <div class="footer__logo">
+                        <a href="1-index.html" title=""><img src="../app_themes/img/logo-footer.png" alt=""></a>
+                    </div>
+                    <p><b>Báo Nghệ An điện tử </b>- Cơ quan chủ quản: Tỉnh ủy Nghệ An</p>
+                    <p>Giấy phép hoạt động báo điện tử số: 304/GP-BTTTT</p>
+                    <p>Bộ Thông tin và Truyền thông cấp ngày 07-06-2016</p>
+                    <p><i>©Ghi rõ nguồn “Báo Nghệ An” khi phát hành lại thông tin từ website này</i></p>
                 </div>
                 <div class="footer__col">
-                    <p><b>Liên hệ quảng cáo</b></p>
-                    <p>Điện thoại: 048-333.333</p>
-                    <p>Email: <a class="link-primary" href="mailto:info@baonghean.vn">info@baonghean.vn</a></p>
+                    <p><b>Tổng biên tập</b>: Phạm Thị Hồng Toan</p>
+                    <p><b>Địa chỉ</b>: Số 03 Đại lộ Lê Nin, Thành phố Vinh</p>
+                    <p><b>Điện thoại</b>: (023)83.588138; <b>Fax</b>: (023)83.847898</p>
+                    <p><b>QC</b>: (023)88 600006; <b>Email</b>: <a href="mailto:bna.pdt@gmail.com">bna.pdt@gmail.com</a></p>
                 </div>
             </div>
         </div>

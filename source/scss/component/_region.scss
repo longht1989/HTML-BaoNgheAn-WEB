@@ -8,21 +8,33 @@
 .zone {
     margin-bottom: 24px;
     &__header {
+        @include clearfix;
         margin-bottom: 12px;
         font-family: $font-family-special;
         font-size: 0;
+        .form-control {
+            width: 140px;
+            float: right;
+            height: 30px;
+        }
     }
     &__title {
         font-size: 22px;
         line-height: 1em;
         position: relative;
-        margin-bottom: 12px;
         color: $brand-primary;
         text-transform: uppercase;
+        float: left;
         &:hover {
             color: $brand-success;
             &::after {
                 background: $brand-success;
+            }
+        }
+        a {
+            color: $brand-primary;
+            &:hover {
+                color: $brand-success;
             }
         }
         .zone--featured & {
@@ -71,12 +83,54 @@
         padding: 8px;
     }
     &--featured {
-        background: #111;
-        padding: 16px;
+        background: #888;
+        padding: 8px;
+        .zone__header {
+            margin-bottom: 8px;
+        }
+        .zone__title {
+            a {
+                color: white;
+                &:hover {
+                    color: #ddd;
+                }
+            }
+        }
     }
-    .sidebar-col &{
-        .zone__title{
+    .sidebar-col &,
+    &--aside {
+        .zone__title {
             font-size: 16px;
+            line-height: 30px;
+        }
+    }
+    &--media {
+        position: relative;
+        .bx-pager {
+            position: absolute;
+            top: 21px;
+            right: 8px;
+            &-item {
+                float: left;
+                &+.bx-pager-item {
+                    margin-left: 8px;
+                }
+                a {
+                    display: inline-block;
+                    width: 8px;
+                    height: 8px;
+                    text-indent: -999em;
+                    background: #444;
+                    &.active {
+                        background: white;
+                    }
+                }
+            }
+        }
+        .story {
+            &+.story {
+                margin-top: 0;
+            }
         }
     }
 }
@@ -134,5 +188,20 @@
                 color: #555;
             }
         }
+    }
+}
+
+.qc {
+    &--floating {
+        position: absolute;
+        top: 0;
+    }
+    &--left {
+        right: 100%;
+        margin-right: 10px;
+    }
+    &--right {
+        left: 100%;
+        margin-left: 10px;
     }
 }

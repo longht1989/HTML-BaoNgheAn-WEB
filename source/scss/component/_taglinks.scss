@@ -8,6 +8,7 @@
         transition: all 0.2s linear;
         padding: 0 4px 0 14px;
         position: relative;
+        margin: 0 16px 8px 0;
         &::before {
             content: '';
             display: block;
@@ -39,9 +40,6 @@
             &::after {
                 border-left-color: $brand-primary;
             }
-        }
-        &+.tag__item {
-            margin-left: 16px;
         }
     }
 }

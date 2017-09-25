@@ -77,6 +77,29 @@ gulp.task('styles', function() {
         .pipe(browserSync.stream());
 });
 
+// make style for main article in CMS
+gulp.task('styles-a', function() {
+    gulp.src(paths.scss_dev + '/page/cms-article.scss')
+        .pipe(plumber({
+            errorHandler: function(err) {
+                console.log(err);
+                this.emit('end');
+            }
+        }))
+        .pipe(sourcemaps.init())
+        .pipe(sass())
+        // .pipe(gulp.dest(paths.css)) // make normal css for debug
+        .pipe(cssmin())
+        .pipe(rename({
+            basename: 'article.bna',
+            suffix: '.min'
+        }))
+        .pipe(gulp.dest(paths.css))
+        .pipe(sourcemaps.write('../maps'))
+        .pipe(gulp.dest(paths.css))
+        .pipe(browserSync.stream());
+});
+
 
 /*copy folder plugin + fonts*/
 // copy only custom.js file
@@ -119,7 +142,7 @@ gulp.task('delete', function() {
 
 
 // > taskrunner
-gulp.task('default', ['copy', 'scripts', 'styles'],
+gulp.task('default', ['copy', 'scripts', 'styles','styles-a'],
     function() {
         browserSync.init({
             server: {
@@ -132,6 +155,7 @@ gulp.task('default', ['copy', 'scripts', 'styles'],
         });
         gulp.watch(paths.js_dev + '/**/*.js', ['copyJs-UI', 'scripts']);
         gulp.watch(paths.scss_dev + '/**/*.scss', ['styles']);
+        gulp.watch(paths.scss_dev + '/**/*.scss', ['styles-a']);
         gulp.watch(paths.html_dev + '/**/*.html', ['copyHtml']);
     }
 );

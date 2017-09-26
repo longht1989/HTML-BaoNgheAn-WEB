@@ -78,28 +78,11 @@ gulp.task('styles', function() {
 });
 
 // make style for main article in CMS
-gulp.task('styles-a', function() {
-    gulp.src(paths.scss_dev + '/page/cms-article.scss')
-        .pipe(plumber({
-            errorHandler: function(err) {
-                console.log(err);
-                this.emit('end');
-            }
-        }))
-        .pipe(sourcemaps.init())
-        .pipe(sass())
-        // .pipe(gulp.dest(paths.css)) // make normal css for debug
-        .pipe(cssmin())
-        .pipe(rename({
-            basename: 'article.bna',
-            suffix: '.min'
-        }))
-        .pipe(gulp.dest(paths.css))
-        .pipe(sourcemaps.write('../maps'))
-        .pipe(gulp.dest(paths.css))
-        .pipe(browserSync.stream());
-});
+gulp.task('copy-cms-article', function() {
+    gulp.src(paths.scss_dev + '/page/cms-article.css')
+        .pipe(gulp.dest(paths.css)).pipe(browserSync.stream({ once: true }));
 
+});
 
 /*copy folder plugin + fonts*/
 // copy only custom.js file
@@ -131,7 +114,7 @@ gulp.task('copyImg', function() {
 });
 
 // copy all
-gulp.task('copy', ['copyJs-UI', 'copyHtml', 'copyFonts', 'copyImg']);
+gulp.task('copy', ['copyJs-UI', 'copyHtml', 'copyFonts', 'copyImg', 'copy-cms-article']);
 
 
 //delete folder root
@@ -142,7 +125,7 @@ gulp.task('delete', function() {
 
 
 // > taskrunner
-gulp.task('default', ['copy', 'scripts', 'styles','styles-a'],
+gulp.task('default', ['copy', 'scripts', 'styles'],
     function() {
         browserSync.init({
             server: {
@@ -155,7 +138,7 @@ gulp.task('default', ['copy', 'scripts', 'styles','styles-a'],
         });
         gulp.watch(paths.js_dev + '/**/*.js', ['copyJs-UI', 'scripts']);
         gulp.watch(paths.scss_dev + '/**/*.scss', ['styles']);
-        gulp.watch(paths.scss_dev + '/**/*.scss', ['styles-a']);
+        gulp.watch(paths.scss_dev + '/page/cms-article.css', ['copy-cms-article']);
         gulp.watch(paths.html_dev + '/**/*.html', ['copyHtml']);
     }
 );

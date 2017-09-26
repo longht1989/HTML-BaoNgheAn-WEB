@@ -1,0 +1,140 @@
+// Variables
+@brand-primary: #EC1C23;
+@brand-success: #1873BE;
+@brand-info: #43BE18;
+@brand-warning: #ECF350;
+@brand-danger: #DA4827;
+@font-family-sans-serif: 'Roboto',
+"Helvetica Neue",
+Helvetica,
+Arial,
+sans-serif;
+@font-family-serif: Georgia,
+"Times New Roman",
+Times,
+serif;
+@font-family-special: 'QuickSand',
+Georgia,
+"Times New Roman",
+Times,
+serif;
+
+// main article style box for CMS editor
+.box-relate,
+.notification {
+    padding: 10px;
+    background: lighten(@brand-primary, 30%);
+    border: 1px dashed #333;
+    border-radius: 3px;
+    &.pull-left,
+    &.floatleft {
+        float: left;
+        width: 50%;
+        margin-right: 10px;
+    }
+    &.pull-right,
+    &.floatright {
+        float: right;
+        width: 50%;
+        margin-left: 10px;
+    }
+}
+
+
+.article {
+    /* related */
+    &__related-inline {
+        .story__thumb {
+            float: left;
+            margin-right: 8px;
+            margin-bottom: 0;
+        }
+        background: #eee;
+        margin-bottom: 16px;
+        .story__title {
+            padding: 8px;
+        }
+    }
+    /* old related */
+    &__related {
+        margin-bottom: 17px;
+        tr {}
+        th {
+            font-family: @font-family-special;
+            color: @brand-primary;
+            padding-bottom: 8px;
+        }
+        td {
+            li {
+                margin-bottom: 5px;
+                a {
+                    color: black !important;
+                    font-weight: normal !important;
+                    &:hover {
+                        color: @brand-primary !important;
+                    }
+                    &::before {
+                        display: inline-block;
+                        margin-right: 5px;
+                        content: '•';
+                    }
+                }
+            }
+        }
+    }
+    .full-img,
+    .full-video {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+        img {
+            margin-bottom: 8px;
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .fig,
+        .image_desc {
+            font-size: 14px;
+            color: #555;
+            font-style: italic;
+            text-align: center;
+            display: block;
+        }
+    }
+    .quotes {
+        margin: 0 0 10px;
+        padding: 10px 10px 10px 40px;
+        background: #e8eaf0;
+        border: 1px solid #d5dbee;
+        position: relative;
+        clear: both;
+        .author {
+            font-style: normal;
+            text-align: right;
+            font-weight: bold;
+            display: block;
+            padding-top: 10px;
+        }
+        &::before {
+            content: '';
+            font-family: "Fontawesome";
+            font-size: 20px;
+            font-size: 2rem;
+            color: @brand-primary;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+    }
+    .quotes.pull-left {
+        margin-right: 20px;
+        width: 50%;
+    }
+    .quotes.pull-right {
+        margin-left: 20px;
+        width: 50%;
+    }
+}

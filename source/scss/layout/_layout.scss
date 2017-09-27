@@ -216,3 +216,34 @@
         }
     }
 }
+
+// fix width for gif image
+.story--gif {
+    .story__thumb {
+        .zone--primary .story-listing & {
+            width: 180px;
+        }
+        @at-root .main--featured .zone--grey & {
+            width: 80px;
+            a {
+                padding-bottom: 75%;
+            }
+        }
+        @at-root .sidebar-col .zone & {
+            width: 80px;
+            a {
+                padding-bottom: 75%;
+            }
+        }
+    }
+    &.story--horizontal {
+        @at-root .zone-listing .zone & {
+            .story__thumb {
+                width: 80px;
+                a {
+                    padding-bottom: 75%;
+                }
+            }
+        }
+    }
+}

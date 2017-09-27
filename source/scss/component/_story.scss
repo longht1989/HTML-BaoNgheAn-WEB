@@ -210,7 +210,23 @@
             }
         }
     }
-
+    &--gif {
+        .story__thumb {
+            a {
+                display: block;
+                position: relative;
+                overflow: hidden;
+                padding-bottom: 55.6%;
+            }
+            img {
+                position: absolute;
+                top: 0;
+                right: 0;
+                left: 0;
+                width: 100%;
+            }
+        }
+    }
     .zone--featured & {
         .story__title {
             a {

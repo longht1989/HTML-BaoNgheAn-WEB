@@ -87,9 +87,14 @@
         width: 607px;
         float: left;
         .content {
-            // width: 440px;
-            // float: left;
-            @include font-size(14, 19);
+            font-size: 14px;
+            line-height: 19px;
+            @for $i from 1 through 5 {
+                h#{$i} {
+                    font-size: 14px;
+                    line-height: 19px;
+                }
+            }
             p,
             div,
             h3,

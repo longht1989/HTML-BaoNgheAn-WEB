@@ -17,6 +17,16 @@
         line-height: 2.8rem;
         font-weight: bold;
     }
+    &__sub-title {
+        font-size: 18px;
+        line-height: 2.8rem;
+        font-weight: bold;
+        color: #555;
+        margin-top: 8px;
+        .article--second & {
+            margin-top: 16px;
+        }
+    }
     &__meta {
         color: #999;
         margin-top: 8px;

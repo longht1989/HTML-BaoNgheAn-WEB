@@ -202,10 +202,13 @@
                     max-width: 100%;
                 }
             }
-            .fig {
-                font-size: 13px;
-                color: #222;
+            .fig,
+            .image_desc {
+                font-size: 14px;
+                color: #555;
                 font-style: italic;
+                text-align: center;
+                display: block;
             }
             i,
             em {
@@ -563,6 +566,34 @@
         }
         .article__aside {
             top: 369px;
+        }
+    }
+    &--full {
+        width: 100%;
+        padding-right: 0;
+        .article__header,
+        .article__content,
+        .article__footer {
+            width: 100%;
+            float: none;
+        }
+        .article-comments {
+            @include clearfix;
+            .zone-content {
+                margin-left: -8px;
+                margin-right: -8px;
+            }
+            .box-input,
+            .box-user-comm {
+                width: 50%;
+                float: left;
+                padding: 0 8px;
+                margin-top: 0;
+            }
+            .box-user-comm {
+                max-height: 185px;
+                overflow: auto;
+            }
         }
     }
 }

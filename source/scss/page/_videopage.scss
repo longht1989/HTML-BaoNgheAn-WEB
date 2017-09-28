@@ -43,11 +43,15 @@
             float: none;
         }
     }
-    &__header{
-    	display: table-row-group;
+    &__header {
+        .article--video & {
+            display: table-row-group;
+        }
     }
-    &__content{
-    	display: table-header-group;
+    &__content {
+        .article--video & {
+            display: table-header-group;
+        }
     }
     &-comments {
         .article--video & {

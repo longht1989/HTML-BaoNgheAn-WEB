@@ -234,12 +234,11 @@
             a {
                 padding-bottom: 75%;
             }
-            .bx-wrapper {
-                width: 100%;
-                a {
-                    padding-bottom: 55.6%;
-                    ;
-                }
+        }
+        @at-root .sidebar-col .zone .bx-wrapper & {
+            width: 100%;
+            a {
+                padding-bottom: 55.6%;
             }
         }
     }

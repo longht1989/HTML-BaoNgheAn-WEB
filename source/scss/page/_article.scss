@@ -571,11 +571,38 @@
     &--full {
         width: 100%;
         padding-right: 0;
-        .article__header,
-        .article__content,
+        .article__header {
+            width: 80%;
+            float: none;
+            text-align: center;
+            font-family: $font-family-special;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .article__title {
+            font-size: 28px;
+        }
         .article__footer {
             width: 100%;
             float: none;
+        }
+        .article__meta {
+            margin-top: 16px;
+        }
+        .article__summary {
+            margin-top: 16px;
+        }
+        .article__content {
+            width: 100%;
+            float: none;
+            text-align: left;
+            .full-img {
+                .fig {
+                    width: 80%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
         }
         .article-comments {
             @include clearfix;

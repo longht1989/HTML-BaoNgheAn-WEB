@@ -638,7 +638,8 @@
 // comment zone
 .article-comments {
     margin-top: 16px;
-    >header {
+    >header,
+    .title {
         font-family: $font-family-special;
         color: $brand-primary;
         .fa {

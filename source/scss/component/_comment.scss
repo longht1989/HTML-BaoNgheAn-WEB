@@ -368,7 +368,7 @@ li {
 .commentbox .comments li .comment-actions a.btnReply {
     background: url(../images/icon_reply.png) no-repeat left 5px;
     background-size: 16px;
-    color: #000;
+    color: grey;
     display: none;
     white-space: nowrap;
 }
@@ -381,10 +381,10 @@ li {
         @include last-child-y;
         .avatar {
             float: left;
-            height: 25px;
-            width: 25px;
+            height: 24px;
+            width: 24px;
             border-radius: 50%;
-            border: 1px solid #ccc;
+            // border: 1px solid #ccc;
             display: inline-block;
             text-align: center;
             .fa {
@@ -400,9 +400,10 @@ li {
             font-weight: bold;
         }
         .comment-actions {
+            margin-top: 4px;
             .btnLike {
-                margin-right: 15px;
-                color: black;
+                margin-right: 12px;
+                color: grey;
                 font-weight: normal;
                 .fa {
                     margin-right: 4px;
@@ -424,6 +425,7 @@ li {
         }
         .sub-comments {
             margin-left: 35px;
+            margin-top: 8px;
         }
     }
 }

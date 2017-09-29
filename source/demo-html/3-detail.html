@@ -1052,86 +1052,40 @@
                     <!-- article footer -->
                     <div class="article__footer">
                         <!-- article comment box -->
-                        <section class="zone article-comments">
-                            <header>
-                                <h3 class="zone-title">Độc giả bình luận</h3>
-                            </header>
-                            <div class="zone-content">
-                                <div class="box-input" id="commentbox">
-                                    <div class="action">
-                                        <div class="input-group">
-                                            <textarea class="form-control" placeholder="Ý kiến của bạn" id="cmContent" rows="5"></textarea>
+                        <div class="zone article-comments" id="" data-id="" data-type="0">
+                            <div id="" class="commentbox" style="display: block;">
+                                <h3 class="title">Ý kiến bạn đọc</h3>
+                                <div class="input clearfix">
+                                    <textarea></textarea>
+                                    <p class="note">Ý kiến của bạn sẽ được biên tập trước khi đăng. Xin vui lòng gõ tiếng Việt có dấu</p>
+                                    <button class="btn btn-sm btnSubmit disabled">Gửi bình luận</button>
+                                </div>
+                                <div class="user">
+                                    <div class="comment" id="1"><span class="avatar"><i class="fa fa-user"></i></span>
+                                        <div class="content">
+                                            <p class="name">TTT</p>
+                                            <p class="text">Comment 3</p>
+                                            <p class="tool comment-actions"><a class="btnLike" href="#like"><i class="fa fa-thumbs-o-up"></i><span></span></a><a class="btnReply" href="#reply"><i class="fa fa-comments-o"></i>Trả lời</a></p>
                                         </div>
-                                        <p class="note">* Vui lòng nhập bình luận tiếng Việt có dấu</p>
-                                        <div class="pull-right">
-                                            <button class="btn btn-default" id="btnreset">Nhập lại</button>
-                                            <button class="btn btn-primary" id="btnComment" data-toggle="modal" data-target="#user-info">Gửi</button>
-                                            <!-- Modal -->
-                                            <div class="modal fade" id="user-info" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                                                <div class="modal-dialog" role="document">
-                                                    <div class="modal-content">
-                                                        <div class="modal-header">
-                                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                                            <h4 class="modal-title" id="myModalLabel">Thông tin người gửi</h4>
-                                                        </div>
-                                                        <div class="modal-body">
-                                                            <div class="input-group">
-                                                                <input class="name form-control" type="text" placeholder="Họ tên" id="cmFullName">
-                                                                <input class="email form-control" type="email" placeholder="Email" id="cmEmail">
-                                                                <div class="checkbox">
-                                                                    <label>
-                                                                        <input type="checkbox"> Lưu thông tin
-                                                                    </label>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="modal-footer">
-                                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                                            <button type="button" class="btn btn-primary">Gửi</button>
-                                                        </div>
-                                                    </div>
+                                        <div class="sub-comments">
+                                            <div class="comment" id="3"><span class="avatar"><i class="fa fa-user"></i></span>
+                                                <div class="content">
+                                                    <p class="name">TTTT</p>
+                                                    <p class="text">Reply 1</p>
+                                                    <p class="tool comment-actions"><a class="btnLike" href="#like"><i class="fa fa-thumbs-o-up"></i><span></span></a></p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="box-user-comm">
-                                    <div id="commentlist" class="commentlist">
-                                        <div class="box">
-                                            <div class="name">Vinh Kiet
-                                                <time datetime="2011-01-12">January 12th, 2011</time>
-                                            </div>
-                                            <div class="text ">Ở nước Việt mà đăng những tin tức kiểu này thì giấy báo đâu cho thấu hở trời? <a href="#" class="view-more-plus">Xem thêm</a>
-                                            </div>
-                                            <div class="text-reply">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque vero reiciendis ipsum laborum minima ad, voluptate ducimus eos ea officia.
-                                            </div>
-                                        </div>
-                                        <div class="box">
-                                            <div class="name">Nguyễn Nhân
-                                                <time datetime="2011-01-12">January 12th, 2011</time>
-                                            </div>
-                                            <div class="text ">Trộm cướp diễn ra như cơm bũa ! Rồi suốt ngày nghe bàn thành lập đội săn bắt cướp này nọ để rình và bắt,chờ chuyện xảy ra mới hành động ah?, thế cơ quan chính quyền CA để làm gì? Tại sao không tuyển dụng nhân lực CA-CS số lượng nhiều hơn và áp dụng hình thức là mỗi khu phố đều có CA-CS mang quân dụng tuần tra 24/24 như các nước phát triển điển hình ở Âu-Mỹ? Như thế thì thằng nào dám lộng hành ! <a href="#" class="view-more-plus">Xem thêm</a></div>
-                                            <div class="text-reply">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, inventore sint expedita omnis ad iusto quam quos temporibus laboriosam necessitatibus.
-                                            </div>
-                                        </div>
-                                        <div class="box">
-                                            <div class="name">duong minh Ngoc
-                                                <time datetime="2011-01-12">January 12th, 2011</time>
-                                            </div>
-                                            <div class="text ">Cần cải tổ bộ máy cán bộ từ huyện trở lên, cùng là con người mà sao phân biệt quá. HĐND tỉnh, huyện thì chế độ ăn 150-200 ngàn, quần áo cấp thì 1,5-2 triệu đồng, HĐND xã thì tiền ăn 70-100 ngàn, quần áo trong nhiệm kỳ thì giá 1 triệu đồng, thử xem con người với con người như thế đã bình đẳng chưa? Đây có phải là lương cơ bản đâu mà phân biệt vậy? <a href="#" class="view-more-plus">Xem thêm</a></div>
-                                            <div class="text-reply">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam dolore quis sint sequi harum beatae quas perspiciatis doloribus, excepturi ducimus.
-                                            </div>
+                                    <div class="comment" id="2"><span class="avatar"><i class="fa fa-user"></i></span>
+                                        <div class="content">
+                                            <p class="name">TTTTTTTTTT</p>
+                                            <p class="text">Comment 2</p>
+                                            <p class="tool comment-actions"><a class="btnLike" href="#like"><i class="fa fa-thumbs-o-up"></i><span></span></a><a class="btnReply" href="#reply"><i class="fa fa-comments-o"></i>Trả lời</a></p>
                                         </div>
                                     </div>
-                                    <p class="view-more text-center">
-                                        <a href="#" class="btn btn-default btn-sm">Xem thêm</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </section>
+                                </div><a href="#" nextpage="1" style="display:none;" class="btnMore">Xem thêm</a></div>
+                        </div>
                     </div>
                 </article>
             </div>

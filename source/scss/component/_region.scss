@@ -50,6 +50,25 @@
             }
         }
     }
+    &__control {
+        float: right;
+        .prev,
+        .next {
+            display: inline-block;
+            margin-left: 8px;
+            background: #f0f0f0;
+            font-size: 14px;
+            line-height: 24px;
+            width: 24px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s linear;
+            &:hover {
+                color: black;
+                background: #ccc;
+            }
+        }
+    }
     &__sub-title {
         font-size: 12px;
         line-height: 25px;

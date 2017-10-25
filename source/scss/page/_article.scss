@@ -11,6 +11,10 @@
         margin-bottom: 24px;
         width: 607px;
         float: left;
+        .qc {
+            margin-top: 16px;
+            margin-bottom: 0;
+        }
     }
     &__title {
         font-size: 28px;
@@ -84,7 +88,6 @@
     &__content {
         //main article content
         @include clearfix;
-        margin-top: 16px;
         width: 607px;
         float: left;
         .content {

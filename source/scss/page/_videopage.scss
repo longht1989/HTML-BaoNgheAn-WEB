@@ -34,6 +34,20 @@
         padding-right: 0;
         display: table;
         width: 100%;
+        .social-listing {
+            float: right;
+            .sprites {
+                margin-left: 8px;
+            }
+        }
+        .three-cols {
+            .story {
+                &:nth-child(2),
+                &:nth-child(3) {
+                    margin-top: 0;
+                }
+            }
+        }
     }
     &__header,
     &__content,

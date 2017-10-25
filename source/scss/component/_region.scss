@@ -104,6 +104,10 @@
     &--featured {
         background: #888;
         padding: 8px;
+        .no-js &{
+            max-height: 250px;
+            overflow: hidden;
+        }
         .zone__header {
             margin-bottom: 8px;
         }

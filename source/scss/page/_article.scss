@@ -34,15 +34,6 @@
         line-height: 24px;
         @include clearfix;
         time {}
-        .social-listing {
-            float: right;
-            line-height: 1em;
-            .sprites {
-                &+.sprites {
-                    margin-left: 8px;
-                }
-            }
-        }
     }
     &__source {
         padding: 3px 4px;
@@ -97,12 +88,12 @@
         width: 607px;
         float: left;
         .content {
-            font-size: 14px;
-            line-height: 19px;
+            font-size: 16px;
+            line-height: 1.5em;
             @for $i from 1 through 5 {
                 h#{$i} {
-                    font-size: 14px;
-                    line-height: 19px;
+                    font-size: 16px;
+                    line-height: 1.5em;
                 }
             }
             p,
@@ -110,7 +101,7 @@
             h3,
             h4,
             h5 {
-                margin-bottom: 10px;
+                margin-bottom: 20px;
                 margin-top: 0;
             }
             img {
@@ -194,9 +185,8 @@
             }
             .fig,
             .image_desc {
-                font-size: 14px;
+                font-size: 13px;
                 color: #555;
-                font-style: italic;
                 text-align: center;
                 display: block;
             }
@@ -448,16 +438,12 @@
                 }
             }
         }
-        .social-share {
-            text-align: right;
-            >a {
-                font-size: 20px;
-                display: inline-block;
-                margin-left: 5px;
-                vertical-align: bottom !important;
-                color: black;
-                &:hover {
-                    color: #555;
+        .social-listing {
+            float: right;
+            line-height: 1em;
+            .sprites {
+                &+.sprites {
+                    margin-left: 8px;
                 }
             }
         }
@@ -474,14 +460,17 @@
     }
     /* old related */
     &__related {
-        margin-bottom: 17px;
+        margin: 16px 0;
+        width: 100% !important;
+        background: #F0F0F0;
         tr {}
         th {
             font-family: $font-family-special;
             color: $brand-primary;
-            padding-bottom: 8px;
+            padding: 8px 8px 4px;
         }
         td {
+            padding: 8px;
             li {
                 margin-bottom: 5px;
                 a {

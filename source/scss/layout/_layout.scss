@@ -117,11 +117,10 @@
 
 // area
 .area {
-    margin-bottom: 24px;
-    background: #f0f0f0;
-    padding: 16px 0 0;
+    margin-bottom: 24px; // background: #f0f0f0;
     .zone {
-        margin-bottom: 0;
+        margin-bottom: 0; // padding: 16px 0 0;
+        // border-top: 1px solid #eee;
     }
     .story {
         margin-bottom: 16px;
@@ -130,22 +129,23 @@
         }
     }
     &--grey {
-        background: #888;
+        background: #f0f0f0;
+        padding-top: 16px;
         .zone__title {
             a {
-                color: white;
-                &:hover {
-                    color: #ccc;
-                }
+                // color: white;
+                // &:hover {
+                //     color: #ccc;
+                // }
             }
         }
         .story {
             .story__title {
                 a {
-                    color: white;
-                    &:hover {
-                        color: #ccc;
-                    }
+                    // color: white;
+                    // &:hover {
+                    //     color: #ccc;
+                    // }
                 }
             }
         }
@@ -156,9 +156,12 @@
 .main--featured {
     @include clearfix;
     margin-bottom: 24px;
-    .zone--grey {
+    .zone--grey,
+    &>.zone {
         width: 356px;
         float: left;
+        border-right: 1px solid #eee;
+        padding-right: 16px;
     }
     .zone-listing {
         float: right;
@@ -224,6 +227,12 @@
             width: 180px;
         }
         @at-root .main--featured .zone--grey & {
+            width: 80px;
+            a {
+                padding-bottom: 75%;
+            }
+        }
+        @at-root .main--featured>.zone & {
             width: 80px;
             a {
                 padding-bottom: 75%;

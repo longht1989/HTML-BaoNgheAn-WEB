@@ -74,7 +74,7 @@
     }
     &__nav {
         background: $brand-primary;
-        background: darken($brand-primary, 5%);
+        background: darken($brand-primary, 15%);
         &.affix {
             top: 0;
             right: 0;
@@ -86,7 +86,9 @@
 
 .navigator {
     @include clearfix();
-    font-size: 14px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
     line-height: 35px;
     margin-left: -7px;
     margin-right: -7px; 
@@ -100,7 +102,7 @@
             transition: background 0.2s linear, color 0.2s linear;
             color: white;
             &:hover {
-                background-color: darken($brand-primary, 15%);
+                background-color:  #bf081d;
             }
         }
         &:hover {
@@ -156,8 +158,10 @@
         >li {
             a {
                 background-color: darken($brand-primary, 15%);
+                background-color:  #bf081d;
                 &:hover {
-                    background-color: darken($brand-primary, 20%);
+                    background-color:  #bf081d;
+                    text-decoration: underline;
                 }
             }
         }

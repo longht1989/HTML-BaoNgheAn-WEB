@@ -29,7 +29,7 @@ li {
 
 .commentbox header h1,
 .commentbox .title {
-    font-family: $font-family-special;
+    // font-family: $font-family-special;
     @include font-size(20, 26); // color: $brand-primary;
     margin-bottom: 7px;
 }

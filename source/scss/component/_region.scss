@@ -10,7 +10,7 @@
     &__header {
         @include clearfix;
         margin-bottom: 12px;
-        font-family: $font-family-special;
+        // font-family: $font-family-special;
         font-size: 0;
         .form-control {
             width: 140px;
@@ -19,12 +19,13 @@
         }
     }
     &__title {
-        font-size: 22px;
+        font-size: 20px;
         line-height: 1em;
         position: relative;
         color: $brand-primary;
         text-transform: uppercase;
         float: left;
+        font-weight: bold;
         &:hover {
             color: $brand-success;
             &::after {

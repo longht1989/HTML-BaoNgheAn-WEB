@@ -254,15 +254,26 @@ body p {
     padding-top: 10px
 }
 
-.quotes::before {
-    content: 'ï„';
-    font-family: Fontawesome;
-    font-size: 20px;
-    font-size: 2rem;
-    color: #EC1C23;
+.quotes .sprite-quote {
     position: absolute;
     top: 10px;
     left: 10px
 }
 
-.quotes.pull-left{margin-right:20px;width:50%}.quotes.pull-right{margin-left:20px;width:50%}
+.sprite-quote {
+    display: inline-block;
+    background: url(../img/sprites.svg) no-repeat;
+    width: 18px;
+    height: 16px;
+    background-position: 0 -473px
+}
+
+.quotes.pull-left {
+    margin-right: 20px;
+    width: 50%
+}
+
+.quotes.pull-right {
+    margin-left: 20px;
+    width: 50%
+}

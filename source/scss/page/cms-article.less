@@ -46,12 +46,7 @@ html[xmlns] .clearfix {
     overflow: hidden;
 }
 
-
-
-
-
-/* end easy clearing */
-
+// end easy clearing 
 @font-face {
     font-family: Roboto;
     src: url(../fonts/Roboto-Regular.eot);
@@ -286,15 +281,18 @@ body {
     padding-top: 10px;
 }
 
-.quotes::before {
-    content: 'ï„';
-    font-family: Fontawesome;
-    font-size: 20px;
-    font-size: 2rem;
-    color: #EC1C23;
+.quotes .sprite-quote {
     position: absolute;
     top: 10px;
     left: 10px;
+}
+
+.sprite-quote {
+    display: inline-block;
+    background: url(../img/sprites.svg) no-repeat;
+    width: 18px;
+    height: 16px;
+    background-position: 0 -473px;
 }
 
 .quotes.pull-left {

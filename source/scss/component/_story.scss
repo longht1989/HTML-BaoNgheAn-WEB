@@ -210,6 +210,23 @@
             }
         }
     }
+    &--video {
+        &.is-active {
+            .story__thumb {
+                &::before {
+                    background: rgba(236, 28, 35, 0.8);
+                    content: "Đang xem";
+                    color: white;
+                    font-size: 12px;
+                    font-weight: normal;
+                    line-height: 32px;
+                    width: initial;
+                    padding-left: 28px;
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
     &--gif {
         .story__thumb {
             a {

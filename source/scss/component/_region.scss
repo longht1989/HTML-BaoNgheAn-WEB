@@ -10,7 +10,6 @@
     &__header {
         @include clearfix;
         margin-bottom: 12px;
-        // font-family: $font-family-special;
         font-size: 0;
         .form-control {
             width: 140px;
@@ -19,8 +18,8 @@
         }
     }
     &__title {
-        font-size: 20px;
-        line-height: 1em;
+        font-size: 18px;
+        line-height: 23px;
         position: relative;
         color: $brand-primary;
         text-transform: uppercase;
@@ -36,6 +35,22 @@
             color: $brand-primary;
             &:hover {
                 color: $brand-success;
+            }
+            &+.sub-title {
+                padding-left: 10px;
+                border-left: 1px solid #ddd;
+                margin-left: 10px;
+            }
+        }
+        .sub-title {
+            font-size: 14px;
+            font-weight: normal;
+            text-transform: none;
+            line-height: initial;
+            &+.sub-title {
+                margin-left: 8px;
+                padding-left: 8px;
+                border-left: 1px solid #eee;
             }
         }
         .zone--featured & {
@@ -70,27 +85,14 @@
             }
         }
     }
-    &__sub-title {
-        font-size: 12px;
-        line-height: 25px;
-        &+.zone__sub-title {
-            &::before {
-                content: '/';
-                padding-right: 8px;
-                margin-left: 8px;
-            }
-            &:hover {
-                &::before {
-                    color: #000;
-                }
-            }
-        }
-        .zone--featured & {
-            color: white;
-            &:hover {
+    &__footer {
+        .view-more {
+            font-size: 12px;
+            text-align: right;
+            a {
                 color: $brand-primary;
-                &::before {
-                    color: #fff;
+                &:hover {
+                    color: $brand-success;
                 }
             }
         }
@@ -105,7 +107,7 @@
     &--featured {
         background: #888;
         padding: 8px;
-        .no-js &{
+        .no-js & {
             max-height: 250px;
             overflow: hidden;
         }
@@ -125,7 +127,7 @@
     &--aside {
         .zone__title {
             font-size: 16px;
-            line-height: 30px;
+            // line-height: 30px;
         }
     }
     &--media {

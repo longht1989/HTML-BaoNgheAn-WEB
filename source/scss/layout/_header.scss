@@ -42,6 +42,13 @@
         a:hover {
             color: $brand-primary;
         }
+        .sprites {
+            vertical-align: middle;
+            border-radius: 2px;
+            &+.sprites {
+                margin-left: 4px;
+            }
+        }
     }
     &__content {
         // text-align: center;
@@ -91,7 +98,7 @@
     font-weight: bold;
     line-height: 35px;
     margin-left: -7px;
-    margin-right: -7px; 
+    margin-right: -7px;
     >li {
         float: left;
         position: relative;
@@ -102,7 +109,7 @@
             transition: background 0.2s linear, color 0.2s linear;
             color: white;
             &:hover {
-                background-color:  #bf081d;
+                background-color: #bf081d;
             }
         }
         &:hover {
@@ -158,9 +165,9 @@
         >li {
             a {
                 background-color: darken($brand-primary, 15%);
-                background-color:  #bf081d;
+                background-color: #bf081d;
                 &:hover {
-                    background-color:  #bf081d;
+                    background-color: #bf081d;
                     text-decoration: underline;
                 }
             }

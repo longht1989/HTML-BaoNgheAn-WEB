@@ -33,8 +33,10 @@
                     <div class="site-header__links">
                         <span>Hotline: (023)83.588138</span>
                         <a href="#">Mail gửi tòa soạn</a>
-                        <a href="#">Liên hệ đặt báo</a>
-                        <a href="#">Quảng cáo</a>
+                        <a href="#" data-toggle="modal" data-target="#booking">Liên hệ đặt báo</a>
+                        <a href="#" data-toggle="modal" data-target="#contact">Quảng cáo</a>
+                        <a href="#" class="sprites sprite-facebook"></a>
+                        <a href="#" class="sprites sprite-youtube"></a>
                     </div>
                     <!-- header search -->
                     <div class="search-wrap">
@@ -1037,6 +1039,45 @@
             </div>
         </div>
     </footer>
+    <!-- Modal Book-->
+    <div class="modal fade" id="booking" tabindex="-1" role="dialog" aria-labelledby="bookinglabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="bookinglabel">
+                        <div class="logo"><a href="1-index.html" title=""><img width="300" src="../app_themes/img/logo.png" alt=""></a></div>
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <p><b>Liên hệ gửi bài</b></p>
+                    <p>Ban Thư ký tòa soạn Báo Nghệ An</p>
+                    <p>Email:<a href="mailto:phongbandoc@gmail.com"> phongbandoc@gmail.com</a></p>
+                    <p>Địa chỉ: Tầng 3, Tòa soạn báo Nghệ An, Số 03, Đại lộ Lê Nin, TP.Vinh</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Contact-->
+    <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="contactlabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="contactlabel">
+                        <div class="logo"><a href="1-index.html" title=""><img width="300" src="../app_themes/img/logo.png" alt=""></a></div>
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <p><b>Liên hệ quảng cáo</b></p>
+                    <p>Phòng Phát hành - Quảng cáo</p>
+                    <p>Email: <a href="mailto:qcbna@gmail.com">qcbna@gmail.com</a></p>
+                    <p>Địa chỉ: Tầng 1, Tòa soạn báo Nghệ An, Số 03, Đại lộ Lê Nin, TP.Vinh</p>
+                    <p>Điện thoại: 02388 600006</p>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- JS Global Customise -->
     <script src="../Jscripts/custom.js "></script>
     <!-- Js Dev plugin -->

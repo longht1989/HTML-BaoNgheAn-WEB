@@ -111,3 +111,12 @@
         }
     }
 }
+
+.modal {
+    z-index: 9999;
+    &-dialog {
+        @include breakpoint(sm) {
+            margin-top: 10%;
+        }
+    }
+}

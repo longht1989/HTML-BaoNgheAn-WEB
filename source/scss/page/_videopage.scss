@@ -50,6 +50,9 @@
                 }
             }
         }
+        .article__summary {
+            font-weight: normal;
+        }
     }
     &__header,
     &__content,
@@ -73,9 +76,6 @@
         .article--video & {
             clear: both;
         }
-    }
-    &__summary {
-        font-weight: normal;
     }
     &__author {
         margin-top: 8px;

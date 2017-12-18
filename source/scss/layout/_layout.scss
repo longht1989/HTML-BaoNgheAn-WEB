@@ -4,7 +4,7 @@
 }
 
 .site-wrap {
-    width: 1140px;
+    width: 1080px;
     margin-left: auto;
     margin-right: auto;
     @include clearfix();
@@ -14,7 +14,7 @@
 }
 
 .main-col {
-    width: 825px;
+    width: 765px;
     float: left;
 }
 
@@ -45,7 +45,7 @@
         padding: 0 8px;
     }
     &--highlight {
-        width: 572px;
+        width: 513px;
         float: left;
         .story-listing {
             @include clearfix;
@@ -66,11 +66,11 @@
     }
     &--primary {
         .story--featured {
-            width: 376px;
+            width: 327px;
             float: left;
         }
         .story-listing {
-            width: 432px;
+            width: 422px;
             float: right;
         }
     }
@@ -158,16 +158,16 @@
     margin-bottom: 24px;
     .zone--grey,
     &>.zone {
-        width: 356px;
+        width: 306px;
         float: left;
         border-right: 1px solid #eee;
         padding-right: 16px;
     }
     .zone-listing {
         float: right;
-        width: 452px;
+        width: 445px;
         .story {
-            width: 257px;
+            width: 250px;
             float: left;
         }
     }

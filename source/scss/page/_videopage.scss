@@ -1,11 +1,11 @@
 .video {
     &--highlight {
         .story--highlight {
-            width: 562px;
+            width: 532px;
             float: left;
         }
         .story-listing {
-            width: 578px;
+            width: 548px;
             float: right;
             >li {
                 &:nth-child(1),
@@ -107,7 +107,7 @@
         @include clearfix;
     }
     &__nav {
-        width: 273px;
+        width: 253px;
         float: left;
         font-size: 14px;
         line-height: 1.4em;
@@ -155,7 +155,7 @@
         }
     }
     .video--listing {
-        width: 853px;
+        width: 813px;
         float: right;
     }
 }

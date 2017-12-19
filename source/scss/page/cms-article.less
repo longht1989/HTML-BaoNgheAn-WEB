@@ -304,3 +304,73 @@ body {
     margin-left: 20px;
     width: 50%;
 }
+
+// box-image 
+.box-image {
+    margin-left: -4px;
+    margin-right: -4px;
+    &:after {
+        clear: both;
+        content: "";
+        display: table;
+    }
+    &.box-dou {
+        .box-col {
+            width: 50%;
+        }
+    }
+    &.box-trip {
+        .box-col {
+            width: 33.33%;
+        }
+    }
+    &.box-trip-sm {
+        .box-col {
+            width: 50%;
+            margin-bottom: 8px;
+        }
+        .box-col-lg {
+            width: 100%;
+            float: none;
+            clear: both;
+        }
+    }
+    &.box-quad {
+        .box-col {
+            width: 25%;
+        }
+    }
+    &.box-16-9 {
+        .item-image {
+            padding-bottom: 56.25%;
+        }
+    }
+    &.box-4-3 {
+        .item-image {
+            padding-bottom: 75%;
+        }
+    }
+    &.box-3-4 {
+        .item-image {
+            padding-bottom: 133%;
+        }
+    }
+    .box-col {
+        float: left;
+        padding: 0 4px;
+        margin-bottom: 0;
+    }
+    .item-image {
+        position: relative;
+        padding-bottom: 56.25%;
+        overflow: hidden;
+        margin-bottom: 0;
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: auto;
+        }
+    }
+}

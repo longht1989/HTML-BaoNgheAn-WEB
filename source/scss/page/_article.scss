@@ -195,6 +195,7 @@
                 display: block;
             }
         }
+        /* box-image */
         .box-image {
             @include clearfix;
             margin-left: -4px;
@@ -256,6 +257,16 @@
                     left: 0;
                     width: 100%;
                     height: auto;
+                }
+            }
+        }
+        /* -------------- */
+        .box-collapse {
+            &-hdr {
+                a {
+                    display: block;
+                    height: 66px;
+                    background: url(../img/lawyer.jpg) left top no-repeat transparent;
                 }
             }
         }

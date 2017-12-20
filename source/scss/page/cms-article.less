@@ -315,6 +315,7 @@ body {
 .box-image {
     margin-left: -4px;
     margin-right: -4px;
+    box-sizing: border-box;
     &:after {
         clear: both;
         content: "";
@@ -365,6 +366,14 @@ body {
         float: left;
         padding: 0 4px;
         margin-bottom: 0;
+        box-sizing: border-box;
+    }
+    .box-desc {
+        box-sizing: border-box;
+        clear: both;
+        padding: 8px 4px 0;
+        text-align: center;
+        font-style: italic;
     }
     .item-image {
         position: relative;

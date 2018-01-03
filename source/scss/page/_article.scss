@@ -111,6 +111,10 @@
             img {
                 max-width: 100%;
             }
+            video {
+                max-width: 100%;
+                height: auto;
+            }
             a {
                 font-weight: bold;
                 color: $brand-primary;
@@ -278,7 +282,7 @@
                 &.pull-left {
                     margin-right: 10px;
                 }
-                .item-image{
+                .item-image {
                     margin-bottom: 0;
                 }
                 .box-desc {

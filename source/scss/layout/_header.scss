@@ -5,9 +5,8 @@
     margin-bottom: 30px;
     z-index: 10;
     position: relative;
-    // display: none;
-    @include breakpoint(md) {
-        display: block;
+    @include breakpoint(768px, 1024px) {
+        width: 1080px;
     }
 }
 

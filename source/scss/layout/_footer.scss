@@ -5,6 +5,9 @@
 #site-footer {
     margin-top: 32px;
     @include clearfix;
+    @include breakpoint(768px, 1024px) {
+        width: 1080px;
+    }
 }
 
 .footer {
@@ -25,8 +28,8 @@
             }
         }
     }
-    &__logo{
-        img{
+    &__logo {
+        img {
             width: 60px;
             height: auto;
             float: left;

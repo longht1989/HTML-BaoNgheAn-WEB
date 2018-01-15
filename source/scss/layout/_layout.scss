@@ -11,6 +11,9 @@
     &.has-qc-floating {
         position: relative;
     }
+    @include breakpoint(768px, 1024px){
+        margin-left: 10px;
+    }
 }
 
 .main-col {

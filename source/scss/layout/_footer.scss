@@ -6,7 +6,11 @@
     margin-top: 32px;
     @include clearfix;
     @include breakpoint(768px, 1024px) {
-        width: 1080px;
+        width: 1100px;
+        background: #F0F0F0;
+        .site-wrap {
+            margin-left: 0;
+        }
     }
 }
 
@@ -25,6 +29,14 @@
             vertical-align: top;
             &:hover {
                 color: $brand-primary;
+            }
+        }
+        @include breakpoint(768px, 1024px) {
+            width: 100%;
+            padding-left: 10px;
+            padding-right: 10px;
+            .site-wrap {
+                background: #F0F0F0;
             }
         }
     }
@@ -47,6 +59,14 @@
             line-height: 17px;
             &+p {
                 margin-top: 8px;
+            }
+        }
+        @include breakpoint(768px, 1024px) {
+            width: 100%;
+            padding-left: 10px;
+            padding-right: 10px;
+            .site-wrap {
+                background: #EAEAEA;
             }
         }
     }

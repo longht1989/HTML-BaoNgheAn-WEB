@@ -112,10 +112,9 @@
     >li {
         float: left;
         position: relative;
-        margin-right: 1px;
         a {
             display: block;
-            padding: 0 8px;
+            padding: 0 6px;
             transition: background 0.2s linear, color 0.2s linear;
             color: white;
             &:hover {

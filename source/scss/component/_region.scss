@@ -127,7 +127,6 @@
     &--aside {
         .zone__title {
             font-size: 16px;
-            // line-height: 30px;
         }
     }
     &--media {
@@ -157,6 +156,32 @@
             &+.story {
                 margin-top: 0;
             }
+        }
+    }
+    &.suyngam {
+        border-radius: 10px;
+        .zone__header {
+            img {
+                max-height: 40px;
+                width: auto;
+            }
+        }
+    }
+    &.tieudiem {
+        border-radius: 10px;
+        background: url(../img/tieudiem__bg.png) left top no-repeat #F0F0F0;
+        background-size: 100%;
+        .zone__header {
+            img {
+                max-height: 40px;
+                width: auto;
+            }
+        }
+        .zone__content {
+            padding-left: 60px;
+            min-height: 60px;
+            background: url(../img/tieudiem__symbol.png) left 10px top no-repeat #F0F0F0;
+            background-size: 30px 60px;
         }
     }
 }

@@ -198,6 +198,22 @@
             background-size: 30px 60px;
         }
     }
+    &--search {
+        padding: 16px;
+        .zone__header {
+            padding-bottom: 16px;
+            margin-bottom: 16px;
+            border-bottom: 1px solid #ddd;
+        }
+        .zone__title {
+            color: $gray-darker;
+        }
+        .zone__content {
+            &>.form-group {
+                margin-bottom: 15px;
+            }
+        }
+    }
 }
 
 // ads

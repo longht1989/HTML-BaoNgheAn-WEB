@@ -5,6 +5,7 @@
     margin-bottom: 30px;
     z-index: 10;
     position: relative;
+
     @include breakpoint(768px, 1024px) {
         width: 1080px;
     }
@@ -19,81 +20,116 @@
         line-height: 35px;
         color: #555;
         z-index: 5;
+
         time {
             float: left;
         }
+
         .site-wrap {
             @include breakpoint(768px, 1024px) {
                 background-color: #f0f0f0;
             }
         }
     }
+
     &__tool {
         float: right;
+
         .search-wrap {
             width: 300px;
             margin-left: 16px;
             float: right;
+
             @include breakpoint(768px, 1024px) {
                 margin-right: 15px;
             }
         }
     }
+
     &__links {
         float: left;
+
         a,
         span {
             margin-left: 16px;
             color: #555;
         }
+
         a:hover {
             color: $brand-primary;
         }
+
         .sprites {
             vertical-align: middle;
             border-radius: 2px;
+
             &+.sprites {
                 margin-left: 4px;
             }
         }
     }
+
     &__content {
         // text-align: center;
         padding: 24px 0;
+
         .logo {
             float: left;
+
             img {
                 height: 90px;
                 width: auto;
             }
         }
+
         .qc {
             float: left;
             margin-left: 32px;
             margin-bottom: 0;
         }
+
         .tool {
             width: 140px;
             float: right;
             text-align: center;
         }
+
         .social-listing {
             margin-top: 6px;
         }
     }
+
     &__social {
         >p {
             font-size: 12px;
         }
     }
+
     &__nav {
         background: $brand-primary;
         background: darken($brand-primary, 15%);
+
         &.affix {
             top: 0;
             right: 0;
             left: 0;
             z-index: 100;
+        }
+    }
+
+    &__qc {
+        font-size: 0;
+        width: 728px;
+        float: right;
+
+        .qc {
+            float: left;
+            width: 360px;
+            margin-left: 0;
+
+            &+.qc {
+                margin-left: 8px;
+            }
         }
     }
 }
@@ -106,34 +142,42 @@
     line-height: 35px;
     margin-left: -8px;
     margin-right: -8px;
+
     @include breakpoint(768px, 1024px) {
         background: darken($brand-primary, 15%);
     }
+
     >li {
         float: left;
         position: relative;
+
         a {
             display: block;
             padding: 0 6px;
             transition: background 0.2s linear, color 0.2s linear;
             color: white;
+
             &:hover {
                 background-color: #bf081d;
             }
         }
+
         &:hover {
             .navigator__child {
                 left: auto;
             }
+
             .navigator__search {
                 right: 0;
             }
         }
+
         &:first-child {
             .sprite-home {
                 position: relative;
                 top: 2px;
             }
+
             &:hover,
             &.is-active {
                 .sprite-home {
@@ -141,12 +185,14 @@
                 }
             }
         }
+
         &.is-active {
             a {
                 background-color: #eee;
                 color: $brand-primary;
             }
         }
+
         &.is-featured {
             >a {
                 line-height: 29px;
@@ -155,6 +201,7 @@
                 border-radius: 2px;
                 background: #eee;
                 color: $brand-primary;
+
                 &:hover {
                     line-height: 35px;
                     border-radius: 0;
@@ -163,6 +210,7 @@
                 }
             }
         }
+
         &:last-child {
             &:hover {
                 .navigator__child {
@@ -172,6 +220,7 @@
             }
         }
     }
+
     &__child {
         position: absolute;
         top: 100%;
@@ -179,10 +228,12 @@
         width: 220px;
         z-index: 2;
         @include has-shadow();
+
         >li {
             a {
                 background-color: darken($brand-primary, 15%);
                 background-color: #bf081d;
+
                 &:hover {
                     background-color: #bf081d;
                     text-decoration: underline;

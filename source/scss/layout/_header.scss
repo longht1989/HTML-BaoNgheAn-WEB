@@ -122,12 +122,12 @@
         width: 728px;
         float: right;
 
-        .qc {
+        .box-script {
             float: left;
             width: 360px;
             margin-left: 0;
 
-            &+.qc {
+            &+.box-script {
                 margin-left: 8px;
             }
         }
